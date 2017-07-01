@@ -133,7 +133,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ddO-fI-Yoe" kind="show" id="Hhj-HY-QPq"/>
+                                    <segue destination="ddO-fI-Yoe" kind="presentation" id="Hhj-HY-QPq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -154,7 +154,7 @@
         <!--View Confirm-->
         <scene sceneID="FGP-nk-KZf">
             <objects>
-                <viewController id="ddO-fI-Yoe" customClass="ViewConfirm" customModule="EdenaCheckIn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="ddO-fI-Yoe" customClass="ViewConfirm" customModule="EdenaCheckIn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RX6-vx-SJC"/>
                         <viewControllerLayoutGuide type="bottom" id="xSF-IS-6DP"/>
@@ -163,6 +163,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white" translatesAutoresizingMaskIntoConstraints="NO" id="Ilv-bb-fkX">
+                                <rect key="frame" x="56" y="44" width="719" height="806"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUz-rx-edW">
                                 <rect key="frame" x="573" y="220" width="133" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -249,16 +253,20 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5W-of-rSy">
                                 <rect key="frame" x="495" y="750" width="121" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.46304172277450562" green="0.839760422706604" blue="0.99926429986953735" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="xlz-O6-TuR" kind="show" id="Bs6-rU-gfi"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.11296018835616438" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="BgImage" destination="Ilv-bb-fkX" id="Yhc-ZF-BOh"/>
                         <outlet property="FirstNameLabel" destination="WUz-rx-edW" id="tUo-9d-Se6"/>
                         <outlet property="LastNameLabel" destination="Jmj-de-cCN" id="FEH-4I-yuL"/>
                         <outlet property="NumGuestLabel" destination="dfc-Dv-imV" id="YvK-Bz-N9i"/>
@@ -269,8 +277,54 @@
             </objects>
             <point key="canvasLocation" x="710.79136690647488" y="40.467625899280577"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="PAK-GD-uSP">
+            <objects>
+                <viewController id="xlz-O6-TuR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="T1Z-jd-jUO"/>
+                        <viewControllerLayoutGuide type="bottom" id="OED-09-sAO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RcT-vI-yan">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thank You for Choosing " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ktE-jm-Wvh">
+                                <rect key="frame" x="270" y="190" width="295" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Edena Resorts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2u-yv-fBs">
+                                <rect key="frame" x="277" y="245" width="288" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="34"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sX2-Ih-uAa">
+                                <rect key="frame" x="361" y="846" width="113" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="zqT-B3-xgv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uAj-Jc-fMa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400.7194244604318" y="41.546762589928058"/>
+        </scene>
     </scenes>
     <resources>
         <image name="logo" width="102" height="36"/>
+        <image name="white" width="122" height="160"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="IHQ-Gk-Jqy"/>
+    </inferredMetricsTieBreakers>
 </document>

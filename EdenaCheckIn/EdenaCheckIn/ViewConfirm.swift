@@ -12,6 +12,8 @@ import UIKit
 class ViewConfirm : UIViewController{
     
     
+    @IBOutlet weak var BgImage: UIImageView!
+    
     @IBOutlet weak var FirstNameLabel: UILabel!
     @IBOutlet weak var LastNameLabel: UILabel!
     @IBOutlet weak var NumGuestLabel: UILabel!
@@ -23,6 +25,11 @@ class ViewConfirm : UIViewController{
     var reservationNumText = String()
     
     override func viewDidLoad() {
+        BgImage.layer.borderColor = UIColor(red: 0.5, green: 0.5, blue: 0.5, alpha: 1.0).cgColor
+        BgImage.layer.borderWidth = 2
+        BgImage.layer.zPosition = -5;
+        
+        
         FirstNameLabel.text = firstNameText
         LastNameLabel.text = lastNameText
         NumGuestLabel.text = numGuestText

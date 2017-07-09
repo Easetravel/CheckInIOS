@@ -16,6 +16,7 @@
 		B2D5ADE51EFFF89D008A8574 /* EdenaCheckInUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D5ADE41EFFF89D008A8574 /* EdenaCheckInUITests.swift */; };
 		B2D5ADF31F00014B008A8574 /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D5ADF21F00014B008A8574 /* LineTextField.swift */; };
 		B2FC44641F010C4D00ED38F7 /* ViewConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FC44631F010C4D00ED38F7 /* ViewConfirm.swift */; };
+		B66D2DBB1F1201410095951F /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66D2DBA1F1201410095951F /* MonthYearPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B2D5ADE61EFFF89D008A8574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2D5ADF21F00014B008A8574 /* LineTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
 		B2FC44631F010C4D00ED38F7 /* ViewConfirm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfirm.swift; sourceTree = "<group>"; };
+		B66D2DBA1F1201410095951F /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		B2D5ADC31EFFF89D008A8574 /* EdenaCheckIn */ = {
 			isa = PBXGroup;
 			children = (
+				B66D2DBA1F1201410095951F /* MonthYearPickerView.swift */,
 				B2D5ADC41EFFF89D008A8574 /* AppDelegate.swift */,
 				B2D5ADC61EFFF89D008A8574 /* ViewController.swift */,
 				B2D5ADF21F00014B008A8574 /* LineTextField.swift */,
@@ -199,6 +202,7 @@
 				TargetAttributes = {
 					B2D5ADC01EFFF89D008A8574 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G33WCJ3P9H;
 						ProvisioningStyle = Automatic;
 					};
 					B2D5ADD41EFFF89D008A8574 = {
@@ -266,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2D5ADC71EFFF89D008A8574 /* ViewController.swift in Sources */,
+				B66D2DBB1F1201410095951F /* MonthYearPickerView.swift in Sources */,
 				B2FC44641F010C4D00ED38F7 /* ViewConfirm.swift in Sources */,
 				B2D5ADF31F00014B008A8574 /* LineTextField.swift in Sources */,
 				B2D5ADC51EFFF89D008A8574 /* AppDelegate.swift in Sources */,
@@ -422,11 +427,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G33WCJ3P9H;
 				INFOPLIST_FILE = EdenaCheckIn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edenaresorts.EdenaCheckIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -434,11 +441,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G33WCJ3P9H;
 				INFOPLIST_FILE = EdenaCheckIn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edenaresorts.EdenaCheckIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EdenaCheckIn/ViewController.swift"
+            timestampString = "521273958.813264"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EdenaCheckIn.ViewController.__deallocating_deinit"
+                  moduleName = "EdenaCheckIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dyr429/Documents/GitHub/CheckInIOS/EdenaCheckIn/EdenaCheckIn/ViewController.swift"
+                  timestampString = "521273960.105832"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EdenaCheckIn.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; EdenaCheckIn.ViewController"
+                  moduleName = "EdenaCheckIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dyr429/Documents/GitHub/CheckInIOS/EdenaCheckIn/EdenaCheckIn/ViewController.swift"
+                  timestampString = "521273960.110185"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EdenaCheckIn.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; EdenaCheckIn.ViewController"
+                  moduleName = "EdenaCheckIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dyr429/Documents/GitHub/CheckInIOS/EdenaCheckIn/EdenaCheckIn/ViewController.swift"
+                  timestampString = "521273960.114601"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EdenaCheckIn.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;EdenaCheckIn.ViewController&gt;"
+                  moduleName = "EdenaCheckIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dyr429/Documents/GitHub/CheckInIOS/EdenaCheckIn/EdenaCheckIn/ViewController.swift"
+                  timestampString = "521273960.118594"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EdenaCheckIn.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;EdenaCheckIn.ViewController&gt;"
+                  moduleName = "EdenaCheckIn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dyr429/Documents/GitHub/CheckInIOS/EdenaCheckIn/EdenaCheckIn/ViewController.swift"
+                  timestampString = "521273960.122829"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EdenaCheckIn/ViewController.swift"
+            timestampString = "521276432.936306"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "createDatePicker()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

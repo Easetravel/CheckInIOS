@@ -15,6 +15,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var NumGuestText: LineTextField!
     @IBOutlet weak var ReservationNoText: LineTextField!
     @IBOutlet weak var ExpirationDatePicker: LineTextField!
+    
+    @IBOutlet weak var CreditCardText: LineTextField!
+    @IBOutlet weak var DateText: LineTextField!
+    @IBOutlet weak var HolderText: LineTextField!
+    @IBOutlet weak var CvvText: LineTextField!
+    
     let datePicker = UIDatePicker()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,14 +35,24 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         var DestViewController : ViewConfirm = segue.destination as! ViewConfirm
-        DestViewController.firstNameText = FirstNameText.text!
-        DestViewController.lastNameText = LastNameText.text!
-        DestViewController.numGuestText = NumGuestText.text!
-        DestViewController.reservationNumText = ReservationNoText.text!
+        DestViewController.firstNameReceiver = FirstNameText.text!
+        DestViewController.lastNameReceiver = LastNameText.text!
+        DestViewController.numGuestReceiver = NumGuestText.text!
+        DestViewController.reservationNumReceiver = ReservationNoText.text!
+        
+        DestViewController.creditcardReceiver = CreditCardText.text!
+        DestViewController.dateReceiver = DateText.text!
+        DestViewController.holderReceiver = HolderText.text!
+        DestViewController.cvvReceiver = CvvText.text!
     }
     
     func createDatePicker(){
-        datePicker.datePickerMode = .date
+        let monthdatepicker = MonthYearPickerView()
+        monthdatepicker.onDateSelected = { (month: Int, year: Int) in
+            let string = String(format: "%02d/%d", month, year)
+            NSLog(string) // should show something like 05/2015
+            self.DateText.text = string
+        }
         
         let toolbar = UIToolbar()
         toolbar.sizeToFit()
@@ -45,15 +61,15 @@ class ViewController: UIViewController {
         
         ExpirationDatePicker.inputAccessoryView = toolbar
         
-        ExpirationDatePicker.inputView = datePicker
+        ExpirationDatePicker.inputView = monthdatepicker
     }
     
     func donePressed(){
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateStyle = .short
-        dateFormatter.timeStyle = .none
-        
-        ExpirationDatePicker.text = dateFormatter.string(from: datePicker.date)
+//        let dateFormatter = DateFormatter()
+//        dateFormatter.dateStyle = .short
+//        dateFormatter.timeStyle = .none
+//        
+//        ExpirationDatePicker.text = dateFormatter.string(from: datePicker.date)
         self.view.endEditing(true)
     }
 

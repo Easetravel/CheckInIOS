@@ -12,6 +12,8 @@ import UIKit
 class ViewConfirm : UIViewController{
     
     
+    @IBOutlet weak var signitureView: YPDrawSignatureView!
+    @IBOutlet weak var TimeStamp: UILabel!
     @IBOutlet weak var BgImage: UIImageView!
     
     @IBOutlet weak var FirstNameLabel: UILabel!
@@ -49,6 +51,9 @@ class ViewConfirm : UIViewController{
         DateLabel.text = dateReceiver
         HolerLabel.text = holderReceiver
         CvvLabel.text = cvvReceiver
+        
+        
+        TimeStamp.text = getTodayString()
     }
     @IBAction func screenShot(_ sender: UIButton) {
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, UIScreen.main.scale)
@@ -58,6 +63,28 @@ class ViewConfirm : UIViewController{
         UIImageWriteToSavedPhotosAlbum(screenshot!, nil, nil, nil)
         
     
+    }
+    func getTodayString() -> String{
+        
+        let date = Date()
+        let calender = Calendar.current
+        let components = calender.dateComponents([.year,.month,.day,.hour,.minute,.second], from: date)
+        
+        let year = components.year
+        let month = components.month
+        let day = components.day
+        let hour = components.hour
+        let minute = components.minute
+        let second = components.second
+        var zonecode: String { return TimeZone.current.abbreviation() ?? "" }
+        
+        let today_string = String(year!) + "-" + String(month!) + "-" + String(day!) + " " + String(hour!)  + ":" + String(minute!) + ":" +  String(second!) + " " + zonecode
+        
+        return today_string
+        
+    }
+    @IBAction func Clear(_ sender: UIButton) {
+        self.signitureView.clear()
     }
 
 

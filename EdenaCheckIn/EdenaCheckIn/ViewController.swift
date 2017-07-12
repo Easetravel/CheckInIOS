@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Continue: UIButton!
+    @IBOutlet weak var termsAgree: UISwitch!
     @IBOutlet weak var FirstNameText: LineTextField!
     @IBOutlet weak var LastNameText: LineTextField!
     @IBOutlet weak var NumGuestText: LineTextField!
@@ -73,6 +75,17 @@ class ViewController: UIViewController {
         self.view.endEditing(true)
     }
 
+    @IBAction func agree(_ sender: UISwitch) {
+        if termsAgree.isOn{
+            Continue.isEnabled = true
+            Continue.backgroundColor = UIColor(red:0.40, green:0.78, blue:1.00, alpha:1.0)
+
+        }
+        else{
+            Continue.isEnabled = false;
+            Continue.backgroundColor = UIColor(red:0.75, green:0.75, blue:0.75, alpha:1.0)
+        }
+    }
 
 }
 

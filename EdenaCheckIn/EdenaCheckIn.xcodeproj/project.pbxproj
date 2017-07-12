@@ -17,6 +17,7 @@
 		B2D5ADF31F00014B008A8574 /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D5ADF21F00014B008A8574 /* LineTextField.swift */; };
 		B2FC44641F010C4D00ED38F7 /* ViewConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FC44631F010C4D00ED38F7 /* ViewConfirm.swift */; };
 		B66D2DBB1F1201410095951F /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66D2DBA1F1201410095951F /* MonthYearPickerView.swift */; };
+		B697FB631F15C458001365D5 /* YPDrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697FB621F15C458001365D5 /* YPDrawSignatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B2D5ADF21F00014B008A8574 /* LineTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
 		B2FC44631F010C4D00ED38F7 /* ViewConfirm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfirm.swift; sourceTree = "<group>"; };
 		B66D2DBA1F1201410095951F /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
+		B697FB621F15C458001365D5 /* YPDrawSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPDrawSignatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				B2D5ADC61EFFF89D008A8574 /* ViewController.swift */,
 				B2D5ADF21F00014B008A8574 /* LineTextField.swift */,
 				B2D5ADC81EFFF89D008A8574 /* Main.storyboard */,
+				B697FB621F15C458001365D5 /* YPDrawSignatureView.swift */,
 				B2FC44631F010C4D00ED38F7 /* ViewConfirm.swift */,
 				B2D5ADCB1EFFF89D008A8574 /* Assets.xcassets */,
 				B2D5ADCD1EFFF89D008A8574 /* LaunchScreen.storyboard */,
@@ -271,6 +274,7 @@
 			files = (
 				B2D5ADC71EFFF89D008A8574 /* ViewController.swift in Sources */,
 				B66D2DBB1F1201410095951F /* MonthYearPickerView.swift in Sources */,
+				B697FB631F15C458001365D5 /* YPDrawSignatureView.swift in Sources */,
 				B2FC44641F010C4D00ED38F7 /* ViewConfirm.swift in Sources */,
 				B2D5ADF31F00014B008A8574 /* LineTextField.swift in Sources */,
 				B2D5ADC51EFFF89D008A8574 /* AppDelegate.swift in Sources */,

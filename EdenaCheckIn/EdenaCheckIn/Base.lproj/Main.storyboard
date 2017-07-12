@@ -54,14 +54,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Number of Guest" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qT0-kd-jMZ" customClass="LineTextField" customModule="EdenaCheckIn" customModuleProvider="target">
                                 <rect key="frame" x="83" y="261" width="200" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Reservation Num" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yM5-F4-YzU" customClass="LineTextField" customModule="EdenaCheckIn" customModuleProvider="target">
                                 <rect key="frame" x="496" y="261" width="200" height="60"/>
@@ -75,21 +75,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Credit Card" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c4Q-nW-O4f" customClass="LineTextField" customModule="EdenaCheckIn" customModuleProvider="target">
                                 <rect key="frame" x="83" y="366" width="200" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="CVV" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J5u-PT-9IS" customClass="LineTextField" customModule="EdenaCheckIn" customModuleProvider="target">
                                 <rect key="frame" x="496" y="454" width="200" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Expiration Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vjy-BC-HlW" customClass="LineTextField" customModule="EdenaCheckIn" customModuleProvider="target">
                                 <rect key="frame" x="496" y="366" width="200" height="60"/>
@@ -98,29 +98,213 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JHa-xP-lA5">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JHa-xP-lA5">
                                 <rect key="frame" x="56" y="619" width="657" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">SECURITY DEPOSIT.  Guest agrees to make payment of the security deposit in the amount of: $100 per night at the time of booking.  The security deposit is collateral for damages or excessive expenses or additional services of any kind due to the requests or actions of the Guests.  Security deposits are held in a separate Guest Trust Account.  The Security deposit shall be refunded within 15 business days of the check-out date, provided no deductions are required due to: (a)	Damage to the Accommodation, premises, furnishings, or the common spaces, features or amenities associated with the building of the Accommodation;(b)	Excessively dirty or messy condition of the Accommodation requiring additional cleaning; (c)	Costs to remediate smoking or tobacco use inside or around the Accommodation; or(d)	Any other costs incurred by Service Provider as a result of Guest’s conduct or omissions.If the Accommodation appears dirty, visibly damaged, or in a state of disrepair, Guest shall inform Service Provider immediately.  Guest acknowledges that if Guest pays the security deposit by credit card, Service Provider may immediately charge a Security/Reservation Deposit of $100 per night to Guest’s credit card; funds charged to be held in Guest’s Trust Account.  Should damages, unpaid rental fees, or departure cleaning exceed the amount initially charged to the credit card, Guest irrevocably authorizes Service Provider to charge the credit card in the amount of the damages, unpaid rental fees or cleaning expenses incurred by Service Provider or stated herein.   FULL AGREEMENT.  This Agreement contains all agreements, promises, and undertakings between Ease Travel Marketing Inc. (hereinafter, “Service Provider”) and the individual listed as “Guest”, above (hereinafter, “Guest”).  The parties hereto mutually agree that there are no other oral agreements, promises, or undertakings of any other kind or nature.  This Agreement supersedes any and all prior agreements between the parties hereto relating to the subject matter hereof.  CHECK-IN/CHECK-OUT.  Entry keys/devices to the Accommodation will be provided to Guest (or individual previously authorized by Guest prior to check-in date), at the offices of Service Provider.At the conclusion of Guest’s stay, Guest shall peaceably surrender the premises and return all Accommodation keys/devices and other Service Provider property to the Service Provider’s office, leaving the Accommodation in clean condition.  THIRD-PARTY BOOKING PROVIDERS. Service Provider may furnish Accommodation listings through online booking websites, applications or other outside third-party reservation providers (collectively “Booking Providers”).  The relationship between Service Provider and these Booking Providers is strictly limited to that of third-party contractors.  No employment, joint venture, or partnership arrangement exists between Service Provider and Booking Providers.  Accordingly, the terms and conditions of any such Booking Provider or Booking Provider service used by Guest to view, reserve, or payments for an Accommodation furnished by Service Provider as part of the Services (as defined below), has no relationship to these Terms or this Agreement.  Guest acknowledges and agrees that Guest, and not Service Provider, will be responsible for performing the obligations of any agreements between Guest and Booking Providers, that Service Provider is not a party to such agreements, and that Service Provider disclaims all liability arising from or related to any such agreements with Booking Providers.  Service Provider makes no warranties or representations regarding the statements, conduct, omissions, or actions of any Booking Provider, unless explicitly stated in writing by Service Provider.SUBSTITUTION OF ACCOMMODATIONS. Circumstances outside of the control of Service Provider may cause Guest’s confirmed Accommodation to be unavailable.  In the event of such an occurrence, Service Provider reserves the right to substitute comparable accommodations.  Service Provider cannot guarantee the confirmed rental rate in such circumstances, however, rental rate and substitute Accommodations will be subject to Guest approval.  If the Guest does not approve the rental rate or substitute accommodations, and the circumstances causing the unavailability of the confirmed Accommodation were not caused by Guest, an individual in Guest’s party or an individual invited by Guest into the Accommodation, then a refund of the prorated amount of rental fees will be made to and the security deposit will be returned pursuant to this Agreement.  If a confirmed Accommodation is unavailable and a comparable Accommodation is provided, the comparable Accommodation will be the Accommodation which this Agreement relates.  RULES AND REGULATIONS. Guest agrees, at all times, to abide by the Rules and Regulations set by individual condominium associations, homeowner associations, or property managers, as the case may.  Guest shall cause individuals included as “additional guests,” above (collectively, “Guest Party”), or other invitees of the Guest or the Guest Party (“Invitees”) to abide by such rules at all times.ACCESS. Service Provider reserves the immediate right of entry into the Accommodation or surrounding areas in case of emergency, or to protect or preserve the Accommodation or the Premises.  Guest shall not alter or add locks, or impede Service Provider or Service Provider’s agents from immediate access in the event of emergency or immediate need to preserve or maintain the Accommodation or Premises.  In the event that maintenance or repair is required, Service Provider will provide Guest with advanced notice of such maintenance or repair.  Such notice must only be reasonable in light of the need and immediacy for Service Provider or Service Provider’s agent’s entry into the Accommodation.  CANCELLATIONS.  All cancellations must be made in writing. Cancellations made within 91 days are not subject to cancellation fees. Cancellations made within 90 days to 61 days of are subject to a 50% of TOTAL AMOUNT OF ACCOMODATIONS RENTAL AGREEMENT cancellation fee.  Cancellations made within 60 days to 31 days of are subject to a 75% of TOTAL AMOUNT OF ACCOMODATIONS RENTAL AGREEMENT cancellation fee.   Should Guest cancel 30 days or less before arrival, the TOTAL AMOUNT OF ACCOMODATIONS RENTAL AGREEMENT becomes due, unless the Accommodation can be rented to another party for the same time period and the same rental fee.  In this case, an administrative fee of 20% of TOTAL AMOUNT OF ACCOMODATIONS RENTAL AGREEMENT becomes due plus any rental fee differential.  EXCLUSIVE USE OF ACCOMMODATION.  Use of the Accommodation and the common areas, features and amenities associated thereto (collectively, the “Premises”), is strictly limited to private residential activities only. No part of the Premises may be used for any type of trade, business, or other commercial purpose by either the Guest, Guest Party or Invitees.INVITEES. Guest acknowledges and accepts responsibility for the acts, omissions, neglect or fault of Guest, Guest Party, or the agents, family or invitees of Guest.  All such acts, omissions, neglect or fault causing loss, damages, injury, fines, or violations of stated rules and regulations, will be imputed to Guest.  MAXIMUM OCCUPANCY. The total number of occupants permitted in the Accommodation at one time per the terms of this Agreement shall not be exceeded.  Occupancy is defined as any overnight stay in the Accommodation.  In the event that Service Provider receives notice that the maximum occupancy has been exceeded, Guest, the Guest Party and Invitees will be required to vacate the Premises immediately, and Guest will be liable for any damages, fines or fees assessed by any homeowner’s association, condominium association, or property manager for such violation.  QUIET ENJOYMENT. Guest, Guest Party and Invitees shall not disturb, annoy, endanger or inconvenience neighbors nor use the premises for any unlawful purpose.  Guest shall maintain the Accommodation and Premises in clean and sanitary condition and not disturb surrounding residents or the peaceful and quiet enjoyment of the Premises or surrounding areas.  SAFETY AND ACCOMMODATION SECURITY.  Service Provider explicitly disclaims any responsibility or liability in relation to personal items that are lost, stolen, or damaged while in the Accommodation.  Any items found by Service Provider’s inspectors, maintenance crew, and/or cleaning staff will be held at the office of Service Provider or returned to Guest at the costs of delivery.  Guest acknowledges that Service Provider makes no representation as to the effectiveness or availability of any security systems located in the Accommodation and/or Premises, and disclaims all liability related any damages or personal injury incurred by Guest, Guest Party or Invitees while in or around the Accommodation or Premises.  PETS. Except for registered service animals, no pets of any kind will be allowed in the Accommodations or Premises at any time, without the express written consent of Service Provider.  Consent for pets shall be issued by Service Provider in Service Provider’s sole discretion.  In the event that Guest brings a pet or allows a pet to be brought into the Accommodation or Premises without the express written consent of Service Provider, such action may cause the forfeiture of all payments including security deposit, and the Guest’s immediate eviction.  Such violation may also result in additional cleaning fee charges to Guest as excess damage costs and will be charged against the credit card on file or Guest’s security deposit, at Service Provider’s election.  Any Guest or Guest Party requiring a registered service animal, must notify Service Provider in writing prior to occupancy of the Accommodation.  SMOKING. Smoking is strictly forbidden inside and around the Accommodation and Premises.  Smoking is permitted in designated areas, if any.  Evidence of smoking inside the Accommodation or Premises will result in immediate eviction and forfeiture of all amounts paid and will result in additional cleaning fee charges to Guest as excess damage costs and will be charged against the credit card on file or Guest’s security deposit, at Service Provider’s election.  CREDIT CARD AUTHORIZATION. In the event that charges, fees, fines, damages or other expenses are incurred by Guest or assessed against Guest by Service Provider (whether as a result of a balance in excess of the security deposit or not) (for purposes of this paragraph only, “Charges”), and Guest fails to timely render payment after demand is made by Service Provider, Guest hereby expressly authorizes Service Provider to charge the Guest’s credit card provided to Service Provider in order to secure payment for such Charges.  Guest acknowledges that Service Provider may initiate a pre-authorization and/or charge a nominal amount to Guest’s credit card GUEST WARRANTIES AND REPRESENTATIONS.  Guest makes the following representations and warranties, respective to the Accommodation and this Agreement: (a)	that within a reasonable time after Guest’s entry into the Accommodation for the first time, not to exceed one hour, that Guest has fully inspected the Accommodation and accepts the condition of the Accommodation in “as-is” condition with no warranties or promises express or implied made by the Service Provider;(b)	that Guest, Guest Party and Invitees shall maintain the Accommodation in good, clean, and tenantable condition throughout the Guest’s stay in the Accommodation;(c)	that Guest, Guest Party and Invitees shall use all electrical, plumbing, heating, cooling, appliances, fixtures, and other equipment in a reasonable manner;(d)	that Guest shall remove or cause to be removed all garbage and refuse in a clean and sanitary manner, and place such garbage or refuse in marked containers as furnished by the homeowner or condominium association or the property manager; (e)	that in the event that Guest, Guest Party or Invitees cause any damage, Service Provider may, at its option, repair same and Guest shall pay for the expenses of same on demand as additional rental fees;(f)	that in the event that a major repair to the Accommodation must be made which will necessitate the Guest’s vacating the premises, Service Provider may, at its option, terminate this Agreement and Guest agrees to vacate the Accommodation, holding Service Provider harmless for any damage suffer, if any, which was the direct or proximate result of Guest, Guest Party or Invitees;(g)	Guest shall notify Service Provider of any maintenance or repair required immediately upon notice of such maintenance or repair; and(h)	damages that are not reported in a timely manner during Guest’s initial inspection, may result in the costs of repair of such damages being assessed to Guest.SERVICE PROVIDER WARRANTIES AND REPRESENTATIONS. Service Provider makes the following representations and warranties, respective to the Accommodation and this Agreement:(a)	that Service Provider will furnish the Accommodation (or, in the event that the confirmed Accommodation is unavailable, a comparable Accommodation consistent with the terms herein) in a good, clean, and tenantable condition to Guest at the time and for the duration stated herein;(b)	shall ensure that the Accommodation has been professionally cleaned prior to Guest’s arrival and that the furniture, fixtures, appliances, and equipment are in good working order; (c)	that Service Provider will undertake commercially reasonable efforts to repair, replace or maintain the Accommodation, furniture, fixtures, appliances, and/or equipment that requires repair, replacement or maintenance; and(d)	that Service Provider will take reasonable efforts to ensure that, so long as the Accommodation is left in acceptable condition (no damages, no missing items, nor excessive cleaning required) Guest’s security deposit will be returned within 15 days after vacancy.  WAIVERS AND DISCLAIMERS.  Except for the specific warranties set forth in the immediately preceding section, above, Service Provider makes no further warranties whatsoever with respect to the Accommodation or the Premises, including any (a) warranty of merchantability; or (b) warranty of fitness for a particular purpose; or (c) warranty of title; or (d) warranty relating to or in connection with security or safety of the Accommodation; whether express or implied by law, course of dealing, course of performance, usage of trade or otherwise.  Further, Service Provider explicitly disclaims any warranties or representations respective to the use, availability, or condition of any features or amenities located on the Premises which are common to the residents, visitors or guests of the Premises, and are not under the exclusive control of Service Provider.  Further, Service Provider does not provide insurance coverage to Guest, Guest Party or Invitees respective to the use and enjoyment of the Accommodation or Premises.  Therefore, Service Provider encourages Guest and Guest Party to obtain traveler insurance.  INDEMNIFICATION. Guest agrees to reimburse Service Provider upon demand, in the amount of loss, property damage, or cost or repairs or service caused by negligence or improper use by Guest, Guest Party or invitees.  Guest at all times, will indemnify and hold harmless Service Provider from all losses, damages, liabilities and expenses which can be claimed against Service Provider for any injuries or damages to the person or property of any persons, caused by the acts, omissions, neglect or fault of Guest, Guest Party, or the agents, family or invitees of Guest, or arising from the failure of Guest or the agents, family or invitees of Guest to comply with any applicable laws, statutes, ordinances, regulations and/or rules and regulations of property management, condominium association or homeowner association applicable to the Accommodation.  FORCE MAJEURE. The Service Provider shall not be liable or responsible to Guest, nor be deemed to have defaulted or breached this Agreement, for any failure or delay in fulfilling or performing any term of this Agreement when and to the extent such failure or delay is caused by or results from acts or circumstances beyond the reasonable control of Service Provider including, without limitation, acts of God, flood, fire, earthquake, explosion, governmental actions, war, invasion or hostilities (whether war is declared or not), terrorist threats or acts, riot, or other civil unrest, national emergency, revolution, insurrection, epidemic, lock-outs, strikes or other labor disputes, or power outage.WAIVER.  No waiver by Service Provider of any of the provisions of this Agreement is effective unless explicitly set forth in writing and signed by Service Provider. No failure to exercise, or delay in exercising, any rights, remedy, power or privilege arising from this Agreement operates or may be construed as a waiver thereof. No single or partial exercise of any right, remedy, power or privilege hereunder precludes any other or further exercise thereof or the exercise of any other right, remedy, power or privilege.ASSIGNMENT.  Guest shall not assign any of its rights or delegate any of its obligations under this Agreement (either through an assignment, transfer or sublease) without the prior written consent of Service Provider. Any purported assignment, delegation or sublease in violation of this Section is null and void. No assignment, delegation or sublease relieves Guest of any of its obligations under this Agreement.GOVERNING LAW.  All matters arising out of or relating to this Agreement are governed by and construed in accordance with the internal laws of the Commonwealth of Massachusetts without giving effect to any choice or conflict of law provision or rule (whether of the Commonwealth of Massachusetts or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than those of the Commonwealth of Massachusetts.SUBMISSION TO JURISDICTION.  Any legal suit, action or proceeding arising out of or relating to this Agreement shall be instituted in the courts of the Commonwealth of Massachusetts and located in the City of Boston and County of Suffolk, Massachusetts, and each party irrevocably submits to the exclusive jurisdiction of such courts in any such suit, action or proceeding.SEVERABILITY. If any term or provision of this Agreement is invalid, illegal or unenforceable in any jurisdiction, such invalidity, illegality or unenforceability shall not affect any other term or provision of this Agreement or invalidate or render unenforceable such term or provision in any other jurisdiction.AMENDMENT AND MODIFICATION.  This Agreement may only be amended or modified in a writing which specifically states that it amends this Agreement and is signed by an authorized representative of each party.  BINDING EFFECT.  This Agreement shall be binding upon, and shall inure to, the benefit of the successors and assigns of the parties hereto, subject to the terms hereof.  COUNTERPARTS.  This Agreement may be executed in one or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.  </mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="SECURITY DEPOSIT. ">
+                                        <attributes>
+                                            <font key="NSFont" size="26" name=".SFNSDisplay"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> Guest agrees to make payment of the security deposit in the amount of: $100 per night at the time of booking.  
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="21" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">
+The security deposit is collateral for damages or excessive expenses or additional services of any kind due to the requests or actions of the Guests.  Security deposits are held in a separate Guest Trust Account.  The Security deposit shall be refunded within 15 business days of the check-out date, provided no deductions are required due to: 
+
+(a)	Damage to the Accommodation, premises, furnishings, or the common spaces, features or amenities associated with the building of the Accommodation;
+(b)	Excessively dirty or messy condition of the Accommodation requiring additional cleaning; 
+(c)	Costs to remediate smoking or tobacco use inside or around the Accommodation; or
+(d)	Any other costs incurred by Service Provider as a result of Guest’s conduct or omissions.
+
+If the Accommodation appears dirty, visibly damaged, or in a state of disrepair, Guest shall inform Service Provider immediately.  
+
+Guest acknowledges that if Guest pays the security deposit by credit card, Service Provider may immediately charge a Security/Reservation Deposit of $100 per night to Guest’s credit card; funds charged to be held in Guest’s Trust Account.  Should damages, unpaid rental fees, or departure cleaning exceed the amount initially charged to the credit card, Guest irrevocably authorizes Service Provider to charge the credit card in the amount of the damages, unpaid rental fees or cleaning expenses incurred by Service Provider or stated herein.   
+
+</mutableString>
+                                        <attributes>
+                                            <font key="NSFont" size="21" name=".AppleSystemUIFont"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="FULL AGREEMENT.">
+                                        <attributes>
+                                            <font key="NSFont" size="26" name=".SFNSDisplay"/>
+                                            <font key="NSOriginalFont" size="22" name="Arial-Black"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="26" name=".SFNSDisplay"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> This Agreement contains all agreements, promises, and undertakings between Ease Travel Marketing Inc. (hereinafter, “Service Provider”) and the individual listed as “Guest”, above (hereinafter, “Guest”).  The parties hereto mutually agree that there are no other oral agreements, promises, or undertakings of any other kind or nature.  This Agreement supersedes any and all prior agreements between the parties hereto relating to the subject matter hereof.  
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="21" name=".AppleSystemUIFont"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="CHECK-IN/CHECK-OUT.">
+                                        <attributes>
+                                            <font key="NSFont" size="26" name=".SFNSDisplay"/>
+                                            <font key="NSOriginalFont" size="22" name="Arial-Black"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  ">
+                                        <attributes>
+                                            <font key="NSFont" size="26" name=".SFNSDisplay"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Entry keys/devices to the Accommodation will be provided to Guest (or individual previously authorized by Guest prior to check-in date), at the offices of Service Provider.
+
+At the conclusion of Guest’s stay, Guest shall peaceably surrender the premises and return all Accommodation keys/devices and other Service Provider property to the Service Provider’s office, leaving the Accommodation in clean condition.  
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="21" name=".AppleSystemUIFont"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="THIRD-PARTY BOOKING PROVIDERS.">
+                                        <attributes>
+                                            <font key="NSFont" size="26" name=".SFNSDisplay"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content"> Service Provider may furnish Accommodation listings through online booking websites, applications or other outside third-party reservation providers (collectively “Booking Providers”).  The relationship between Service Provider and these Booking Providers is strictly limited to that of third-party contractors.  No employment, joint venture, or partnership arrangement exists between Service Provider and Booking Providers.  Accordingly, the terms and conditions of any such Booking Provider or Booking Provider service used by Guest to view, reserve, or payments for an Accommodation furnished by Service Provider as part of the Services (as defined below), has no relationship to these Terms or this Agreement.  
+
+Guest acknowledges and agrees that Guest, and not Service Provider, will be responsible for performing the obligations of any agreements between Guest and Booking Providers, that Service Provider is not a party to such agreements, and that Service Provider disclaims all liability arising from or related to any such agreements with Booking Providers.  Service Provider makes no warranties or representations regarding the statements, conduct, omissions, or actions of any Booking Provider, unless explicitly stated in writing by Service Provider.
+
+</mutableString>
+                                        <attributes>
+                                            <font key="NSFont" size="21" name=".AppleSystemUIFont"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="SUBSTITUTION OF ACCOMMODATIONS. ">
+                                        <attributes>
+                                            <font key="NSFont" size="26" name=".SFNSDisplay"/>
+                                            <font key="NSOriginalFont" size="22" name="Arial-Black"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">Circumstances outside of the control of Service Provider may cause Guest’s confirmed Accommodation to be unavailable.  In the event of such an occurrence, Service Provider reserves the right to substitute comparable accommodations.  Service Provider cannot guarantee the confirmed rental rate in such circumstances, however, rental rate and substitute Accommodations will be subject to Guest approval.  If the Guest does not approve the rental rate or substitute accommodations, and the circumstances causing the unavailability of the confirmed Accommodation were not caused by Guest, an individual in Guest’s party or an individual invited by Guest into the Accommodation, then a refund of the prorated amount of rental fees will be made to and the security deposit will be returned pursuant to this Agreement.  If a confirmed Accommodation is unavailable and a comparable Accommodation is provided, the comparable Accommodation will be the Accommodation which this Agreement relates.  
+
+</mutableString>
+                                        <attributes>
+                                            <font key="NSFont" size="21" name=".AppleSystemUIFont"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="RULES AND REGULATIONS.">
+                                        <attributes>
+                                            <font key="NSFont" size="26" name=".SFNSDisplay"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> Guest agrees, at all times, to abide by the Rules and Regulations set by individual condominium associations, homeowner associations, or property managers, as the case may.  Guest shall cause individuals included as “additional guests,” above (collectively, “Guest Party”), or other invitees of the Guest or the Guest Party (“Invitees”) to abide by such rules at all times.
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="21" name=".AppleSystemUIFont"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="ACCESS. ">
+                                        <attributes>
+                                            <font key="NSFont" size="26" name=".SFNSDisplay"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">Service Provider reserves the immediate right of entry into the Accommodation or surrounding areas in case of emergency, or to protect or preserve the Accommodation or the Premises.  Guest shall not alter or add locks, or impede Service Provider or Service Provider’s agents from immediate access in the event of emergency or immediate need to preserve or maintain the Accommodation or Premises.  In the event that maintenance or repair is required, Service Provider will provide Guest with advanced notice of such maintenance or repair.  Such notice must only be reasonable in light of the need and immediacy for Service Provider or Service Provider’s agent’s entry into the Accommodation.  
+
+CANCELLATIONS.  All cancellations must be made in writing. Cancellations made within 91 days are not subject to cancellation fees. Cancellations made within 90 days to 61 days of are subject to a 50% of TOTAL AMOUNT OF ACCOMODATIONS RENTAL AGREEMENT cancellation fee.  Cancellations made within 60 days to 31 days of are subject to a 75% of TOTAL AMOUNT OF ACCOMODATIONS RENTAL AGREEMENT cancellation fee.   Should Guest cancel 30 days or less before arrival, the TOTAL AMOUNT OF ACCOMODATIONS RENTAL AGREEMENT becomes due, unless the Accommodation can be rented to another party for the same time period and the same rental fee.  In this case, an administrative fee of 20% of TOTAL AMOUNT OF ACCOMODATIONS RENTAL AGREEMENT becomes due plus any rental fee differential.  
+
+EXCLUSIVE USE OF ACCOMMODATION.  Use of the Accommodation and the common areas, features and amenities associated thereto (collectively, the “Premises”), is strictly limited to private residential activities only. No part of the Premises may be used for any type of trade, business, or other commercial purpose by either the Guest, Guest Party or Invitees.
+
+INVITEES. Guest acknowledges and accepts responsibility for the acts, omissions, neglect or fault of Guest, Guest Party, or the agents, family or invitees of Guest.  All such acts, omissions, neglect or fault causing loss, damages, injury, fines, or violations of stated rules and regulations, will be imputed to Guest.  
+
+MAXIMUM OCCUPANCY. The total number of occupants permitted in the Accommodation at one time per the terms of this Agreement shall not be exceeded.  Occupancy is defined as any overnight stay in the Accommodation.  In the event that Service Provider receives notice that the maximum occupancy has been exceeded, Guest, the Guest Party and Invitees will be required to vacate the Premises immediately, and Guest will be liable for any damages, fines or fees assessed by any homeowner’s association, condominium association, or property manager for such violation.  
+
+QUIET ENJOYMENT. Guest, Guest Party and Invitees shall not disturb, annoy, endanger or inconvenience neighbors nor use the premises for any unlawful purpose.  Guest shall maintain the Accommodation and Premises in clean and sanitary condition and not disturb surrounding residents or the peaceful and quiet enjoyment of the Premises or surrounding areas.  
+
+SAFETY AND ACCOMMODATION SECURITY.  Service Provider explicitly disclaims any responsibility or liability in relation to personal items that are lost, stolen, or damaged while in the Accommodation.  Any items found by Service Provider’s inspectors, maintenance crew, and/or cleaning staff will be held at the office of Service Provider or returned to Guest at the costs of delivery.  Guest acknowledges that Service Provider makes no representation as to the effectiveness or availability of any security systems located in the Accommodation and/or Premises, and disclaims all liability related any damages or personal injury incurred by Guest, Guest Party or Invitees while in or around the Accommodation or Premises.  
+
+PETS. Except for registered service animals, no pets of any kind will be allowed in the Accommodations or Premises at any time, without the express written consent of Service Provider.  Consent for pets shall be issued by Service Provider in Service Provider’s sole discretion.  In the event that Guest brings a pet or allows a pet to be brought into the Accommodation or Premises without the express written consent of Service Provider, such action may cause the forfeiture of all payments including security deposit, and the Guest’s immediate eviction.  Such violation may also result in additional cleaning fee charges to Guest as excess damage costs and will be charged against the credit card on file or Guest’s security deposit, at Service Provider’s election.  Any Guest or Guest Party requiring a registered service animal, must notify Service Provider in writing prior to occupancy of the Accommodation.  
+
+SMOKING. Smoking is strictly forbidden inside and around the Accommodation and Premises.  Smoking is permitted in designated areas, if any.  Evidence of smoking inside the Accommodation or Premises will result in immediate eviction and forfeiture of all amounts paid and will result in additional cleaning fee charges to Guest as excess damage costs and will be charged against the credit card on file or Guest’s security deposit, at Service Provider’s election.  
+
+CREDIT CARD AUTHORIZATION. In the event that charges, fees, fines, damages or other expenses are incurred by Guest or assessed against Guest by Service Provider (whether as a result of a balance in excess of the security deposit or not) (for purposes of this paragraph only, “Charges”), and Guest fails to timely render payment after demand is made by Service Provider, Guest hereby expressly authorizes Service Provider to charge the Guest’s credit card provided to Service Provider in order to secure payment for such Charges.  Guest acknowledges that Service Provider may initiate a pre-authorization and/or charge a nominal amount to Guest’s credit card 
+
+GUEST WARRANTIES AND REPRESENTATIONS.  Guest makes the following representations and warranties, respective to the Accommodation and this Agreement: 
+
+(a)	that within a reasonable time after Guest’s entry into the Accommodation for the first time, not to exceed one hour, that Guest has fully inspected the Accommodation and accepts the condition of the Accommodation in “as-is” condition with no warranties or promises express or implied made by the Service Provider;
+(b)	that Guest, Guest Party and Invitees shall maintain the Accommodation in good, clean, and tenantable condition throughout the Guest’s stay in the Accommodation;
+(c)	that Guest, Guest Party and Invitees shall use all electrical, plumbing, heating, cooling, appliances, fixtures, and other equipment in a reasonable manner;
+(d)	that Guest shall remove or cause to be removed all garbage and refuse in a clean and sanitary manner, and place such garbage or refuse in marked containers as furnished by the homeowner or condominium association or the property manager; 
+(e)	that in the event that Guest, Guest Party or Invitees cause any damage, Service Provider may, at its option, repair same and Guest shall pay for the expenses of same on demand as additional rental fees;
+(f)	that in the event that a major repair to the Accommodation must be made which will necessitate the Guest’s vacating the premises, Service Provider may, at its option, terminate this Agreement and Guest agrees to vacate the Accommodation, holding Service Provider harmless for any damage suffer, if any, which was the direct or proximate result of Guest, Guest Party or Invitees;
+(g)	Guest shall notify Service Provider of any maintenance or repair required immediately upon notice of such maintenance or repair; and
+(h)	damages that are not reported in a timely manner during Guest’s initial inspection, may result in the costs of repair of such damages being assessed to Guest.
+
+SERVICE PROVIDER WARRANTIES AND REPRESENTATIONS. Service Provider makes the following representations and warranties, respective to the Accommodation and this Agreement:
+
+(a)	that Service Provider will furnish the Accommodation (or, in the event that the confirmed Accommodation is unavailable, a comparable Accommodation consistent with the terms herein) in a good, clean, and tenantable condition to Guest at the time and for the duration stated herein;
+(b)	shall ensure that the Accommodation has been professionally cleaned prior to Guest’s arrival and that the furniture, fixtures, appliances, and equipment are in good working order; 
+(c)	that Service Provider will undertake commercially reasonable efforts to repair, replace or maintain the Accommodation, furniture, fixtures, appliances, and/or equipment that requires repair, replacement or maintenance; and
+(d)	that Service Provider will take reasonable efforts to ensure that, so long as the Accommodation is left in acceptable condition (no damages, no missing items, nor excessive cleaning required) Guest’s security deposit will be returned within 15 days after vacancy.  
+
+WAIVERS AND DISCLAIMERS.  Except for the specific warranties set forth in the immediately preceding section, above, Service Provider makes no further warranties whatsoever with respect to the Accommodation or the Premises, including any (a) warranty of merchantability; or (b) warranty of fitness for a particular purpose; or (c) warranty of title; or (d) warranty relating to or in connection with security or safety of the Accommodation; whether express or implied by law, course of dealing, course of performance, usage of trade or otherwise.  
+
+Further, Service Provider explicitly disclaims any warranties or representations respective to the use, availability, or condition of any features or amenities located on the Premises which are common to the residents, visitors or guests of the Premises, and are not under the exclusive control of Service Provider.  
+
+Further, Service Provider does not provide insurance coverage to Guest, Guest Party or Invitees respective to the use and enjoyment of the Accommodation or Premises.  Therefore, Service Provider encourages Guest and Guest Party to obtain traveler insurance.  
+
+INDEMNIFICATION. Guest agrees to reimburse Service Provider upon demand, in the amount of loss, property damage, or cost or repairs or service caused by negligence or improper use by Guest, Guest Party or invitees.  Guest at all times, will indemnify and hold harmless Service Provider from all losses, damages, liabilities and expenses which can be claimed against Service Provider for any injuries or damages to the person or property of any persons, caused by the acts, omissions, neglect or fault of Guest, Guest Party, or the agents, family or invitees of Guest, or arising from the failure of Guest or the agents, family or invitees of Guest to comply with any applicable laws, statutes, ordinances, regulations and/or rules and regulations of property management, condominium association or homeowner association applicable to the Accommodation.  
+
+FORCE MAJEURE. The Service Provider shall not be liable or responsible to Guest, nor be deemed to have defaulted or breached this Agreement, for any failure or delay in fulfilling or performing any term of this Agreement when and to the extent such failure or delay is caused by or results from acts or circumstances beyond the reasonable control of Service Provider including, without limitation, acts of God, flood, fire, earthquake, explosion, governmental actions, war, invasion or hostilities (whether war is declared or not), terrorist threats or acts, riot, or other civil unrest, national emergency, revolution, insurrection, epidemic, lock-outs, strikes or other labor disputes, or power outage.
+
+WAIVER.  No waiver by Service Provider of any of the provisions of this Agreement is effective unless explicitly set forth in writing and signed by Service Provider. No failure to exercise, or delay in exercising, any rights, remedy, power or privilege arising from this Agreement operates or may be construed as a waiver thereof. No single or partial exercise of any right, remedy, power or privilege hereunder precludes any other or further exercise thereof or the exercise of any other right, remedy, power or privilege.
+
+ASSIGNMENT.  Guest shall not assign any of its rights or delegate any of its obligations under this Agreement (either through an assignment, transfer or sublease) without the prior written consent of Service Provider. Any purported assignment, delegation or sublease in violation of this Section is null and void. No assignment, delegation or sublease relieves Guest of any of its obligations under this Agreement.
+
+GOVERNING LAW.  All matters arising out of or relating to this Agreement are governed by and construed in accordance with the internal laws of the Commonwealth of Massachusetts without giving effect to any choice or conflict of law provision or rule (whether of the Commonwealth of Massachusetts or any other jurisdiction) that would cause the application of the laws of any jurisdiction other than those of the Commonwealth of Massachusetts.
+
+SUBMISSION TO JURISDICTION.  Any legal suit, action or proceeding arising out of or relating to this Agreement shall be instituted in the courts of the Commonwealth of Massachusetts and located in the City of Boston and County of Suffolk, Massachusetts, and each party irrevocably submits to the exclusive jurisdiction of such courts in any such suit, action or proceeding.
+
+SEVERABILITY. If any term or provision of this Agreement is invalid, illegal or unenforceable in any jurisdiction, such invalidity, illegality or unenforceability shall not affect any other term or provision of this Agreement or invalidate or render unenforceable such term or provision in any other jurisdiction.
+
+AMENDMENT AND MODIFICATION.  This Agreement may only be amended or modified in a writing which specifically states that it amends this Agreement and is signed by an authorized representative of each party.  
+
+BINDING EFFECT.  This Agreement shall be binding upon, and shall inure to, the benefit of the successors and assigns of the parties hereto, subject to the terms hereof.  
+
+COUNTERPARTS.  This Agreement may be executed in one or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.  
+</mutableString>
+                                        <attributes>
+                                            <font key="NSFont" size="21" name=".AppleSystemUIFont"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I AGREE WITH THE TERMS AVOVE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJU-KQ-deo">
-                                <rect key="frame" x="145" y="855" width="302" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HUi-s0-WDN">
-                                <rect key="frame" x="83" y="868" width="51" height="31"/>
+                                <rect key="frame" x="56" y="868" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="agree:" destination="BYZ-38-t0r" eventType="valueChanged" id="xad-yq-o67"/>
+                                </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPY-fV-A3F">
                                 <rect key="frame" x="318" y="919" width="133" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.46241790056228638" green="0.83713823556900024" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -134,12 +318,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I AGREE WITH THE TERMS AVOVE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJU-KQ-deo">
+                                <rect key="frame" x="124" y="855" width="302" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="Continue" destination="bPY-fV-A3F" id="qnM-4w-HFd"/>
                         <outlet property="CreditCardText" destination="c4Q-nW-O4f" id="6sc-QW-VzC"/>
                         <outlet property="CvvText" destination="J5u-PT-9IS" id="e1r-OB-paG"/>
                         <outlet property="DateText" destination="Vjy-BC-HlW" id="cA2-Ee-CvO"/>
@@ -149,6 +341,7 @@
                         <outlet property="LastNameText" destination="wYI-09-VHf" id="TZP-OR-6WT"/>
                         <outlet property="NumGuestText" destination="qT0-kd-jMZ" id="Ntk-9w-99e"/>
                         <outlet property="ReservationNoText" destination="yM5-F4-YzU" id="qkO-aq-rxe"/>
+                        <outlet property="termsAgree" destination="HUi-s0-WDN" id="ioh-km-I7k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -168,67 +361,67 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white" translatesAutoresizingMaskIntoConstraints="NO" id="Ilv-bb-fkX">
-                                <rect key="frame" x="50" y="96" width="669" height="805"/>
+                                <rect key="frame" x="50" y="88" width="669" height="866"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zY-4j-utf">
-                                <rect key="frame" x="61" y="264" width="123" height="32"/>
+                                <rect key="frame" x="62" y="248" width="123" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CVV" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKx-HB-jbC">
-                                <rect key="frame" x="446" y="637" width="75" height="32"/>
+                                <rect key="frame" x="435" y="592" width="75" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Card Holder:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBQ-n4-QFn">
-                                <rect key="frame" x="59" y="637" width="135" height="32"/>
+                                <rect key="frame" x="59" y="592" width="135" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUz-rx-edW">
-                                <rect key="frame" x="191" y="264" width="140" height="32"/>
+                                <rect key="frame" x="191" y="249" width="170" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Expiration Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RWS-Dw-wYA">
-                                <rect key="frame" x="59" y="545" width="161" height="32"/>
+                                <rect key="frame" x="59" y="505" width="161" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Last Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQ9-VX-NhO">
-                                <rect key="frame" x="369" y="264" width="115" height="32"/>
+                                <rect key="frame" x="369" y="249" width="115" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Num of Guests:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJ1-4v-Nou">
-                                <rect key="frame" x="59" y="364" width="153" height="29"/>
+                                <rect key="frame" x="61" y="335" width="153" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Credit Card:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E53-2G-2nh">
-                                <rect key="frame" x="62" y="453" width="135" height="32"/>
+                                <rect key="frame" x="59" y="419" width="135" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reservation Num:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="El0-D3-A6c">
-                                <rect key="frame" x="369" y="364" width="183" height="32"/>
+                                <rect key="frame" x="369" y="332" width="183" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -247,60 +440,146 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SdB-bo-TxT">
-                                <rect key="frame" x="59" y="324" width="650" height="3"/>
+                                <rect key="frame" x="57" y="307" width="650" height="3"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.49553189212328769" colorSpace="calibratedRGB"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sYt-d9-UfG">
-                                <rect key="frame" x="59" y="425" width="650" height="3"/>
+                                <rect key="frame" x="57" y="393" width="650" height="3"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.49553189209999998" colorSpace="calibratedRGB"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dXe-wo-vWA">
-                                <rect key="frame" x="61" y="511" width="650" height="3"/>
+                                <rect key="frame" x="57" y="479" width="650" height="3"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.49553189209999998" colorSpace="calibratedRGB"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ftm-Hs-5Px">
-                                <rect key="frame" x="61" y="607" width="650" height="3"/>
+                                <rect key="frame" x="57" y="564" width="650" height="3"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.49553189209999998" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B4l-KD-ZNw">
+                                <rect key="frame" x="57" y="647" width="650" height="3"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.49553189209999998" colorSpace="calibratedRGB"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rww-P4-DPk">
-                                <rect key="frame" x="62" y="707" width="648" height="8"/>
+                                <rect key="frame" x="59" y="808" width="648" height="8"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jmj-de-cCN">
-                                <rect key="frame" x="492" y="264" width="157" height="34"/>
+                                <rect key="frame" x="492" y="249" width="215" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHz-ux-wGw">
-                                <rect key="frame" x="563" y="364" width="103" height="32"/>
+                                <rect key="frame" x="560" y="332" width="147" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pi7-JL-qcD">
-                                <rect key="frame" x="169" y="774" width="119" height="71"/>
+                                <rect key="frame" x="160" y="845" width="119" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <state key="normal" title="BACK"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <state key="normal" title="BACK">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="IHQ-Gk-Jqy"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBK-oW-DvC">
+                                <rect key="frame" x="202" y="419" width="304" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnc-gZ-3pS">
+                                <rect key="frame" x="200" y="592" width="155" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CVV:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyL-1s-kLx">
+                                <rect key="frame" x="369" y="592" width="58" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNm-hk-d4q">
+                                <rect key="frame" x="231" y="505" width="149" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfc-Dv-imV">
+                                <rect key="frame" x="230" y="334" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dAA-mO-s7i" customClass="YPDrawSignatureView" customModule="EdenaCheckIn" customModuleProvider="target">
+                                <rect key="frame" x="191" y="672" width="516" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqD-MC-YWB">
+                                        <rect key="frame" x="450" y="90" width="58" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Clear">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Clear:" destination="ddO-fI-Yoe" eventType="touchUpInside" id="TSI-gp-pYc"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="signatureBackgroundColor">
+                                        <color key="value" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuk-w3-280">
+                                <rect key="frame" x="478" y="924" width="241" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Signature:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ba7-6W-Jrk">
+                                <rect key="frame" x="57" y="722" width="108" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWu-cy-0yp">
-                                <rect key="frame" x="474" y="774" width="114" height="71"/>
+                                <rect key="frame" x="492" y="845" width="114" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                                <state key="normal" title="Confirm">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <state key="normal" title="CONFIRM">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -308,41 +587,6 @@
                                     <segue destination="xlz-O6-TuR" kind="show" id="U4t-cu-eeK"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBK-oW-DvC">
-                                <rect key="frame" x="217" y="453" width="304" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnc-gZ-3pS">
-                                <rect key="frame" x="202" y="637" width="143" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CVV:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyL-1s-kLx">
-                                <rect key="frame" x="369" y="637" width="77" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNm-hk-d4q">
-                                <rect key="frame" x="228" y="545" width="149" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfc-Dv-imV">
-                                <rect key="frame" x="228" y="363" width="91" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.48697024828767121" colorSpace="calibratedRGB"/>
                     </view>
@@ -356,6 +600,8 @@
                         <outlet property="LastNameLabel" destination="Jmj-de-cCN" id="FEH-4I-yuL"/>
                         <outlet property="NumGuestLabel" destination="dfc-Dv-imV" id="YvK-Bz-N9i"/>
                         <outlet property="ReservationNumLabel" destination="aHz-ux-wGw" id="tv3-vG-TXc"/>
+                        <outlet property="TimeStamp" destination="tuk-w3-280" id="Qd1-28-4NP"/>
+                        <outlet property="signitureView" destination="dAA-mO-s7i" id="MVm-cJ-TSS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wux-rg-Zyq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -375,14 +621,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Edena Resorts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2u-yv-fBs">
-                                <rect key="frame" x="240" y="245" width="288" height="193"/>
+                                <rect key="frame" x="258" y="341" width="253" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="34"/>
                                 <color key="textColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sX2-Ih-uAa">
-                                <rect key="frame" x="328" y="843" width="113" height="60"/>
+                                <rect key="frame" x="328" y="844" width="113" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
@@ -394,9 +640,9 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thank You for Choosing " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ktE-jm-Wvh">
-                                <rect key="frame" x="237" y="182" width="295" height="93"/>
+                                <rect key="frame" x="213" y="182" width="343" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="31"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -406,7 +652,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uAj-Jc-fMa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1400.7194244604318" y="41.546762589928058"/>
+            <point key="canvasLocation" x="1400" y="41.015625"/>
         </scene>
     </scenes>
     <resources>

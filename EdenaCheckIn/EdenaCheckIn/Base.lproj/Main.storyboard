@@ -118,7 +118,7 @@
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
+                                        <string key="content">
 The security deposit is collateral for damages or excessive expenses or additional services of any kind due to the requests or actions of the Guests.  Security deposits are held in a separate Guest Trust Account.  The Security deposit shall be refunded within 15 business days of the check-out date, provided no deductions are required due to: 
 
 (a)	Damage to the Accommodation, premises, furnishings, or the common spaces, features or amenities associated with the building of the Accommodation;
@@ -130,7 +130,7 @@ If the Accommodation appears dirty, visibly damaged, or in a state of disrepair,
 
 Guest acknowledges that if Guest pays the security deposit by credit card, Service Provider may immediately charge a Security/Reservation Deposit of $100 per night to Guest’s credit card; funds charged to be held in Guest’s Trust Account.  Should damages, unpaid rental fees, or departure cleaning exceed the amount initially charged to the credit card, Guest irrevocably authorizes Service Provider to charge the credit card in the amount of the damages, unpaid rental fees or cleaning expenses incurred by Service Provider or stated herein.   
 
-</mutableString>
+</string>
                                         <attributes>
                                             <font key="NSFont" size="21" name=".AppleSystemUIFont"/>
                                         </attributes>
@@ -181,11 +181,11 @@ At the conclusion of Guest’s stay, Guest shall peaceably surrender the premise
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> Service Provider may furnish Accommodation listings through online booking websites, applications or other outside third-party reservation providers (collectively “Booking Providers”).  The relationship between Service Provider and these Booking Providers is strictly limited to that of third-party contractors.  No employment, joint venture, or partnership arrangement exists between Service Provider and Booking Providers.  Accordingly, the terms and conditions of any such Booking Provider or Booking Provider service used by Guest to view, reserve, or payments for an Accommodation furnished by Service Provider as part of the Services (as defined below), has no relationship to these Terms or this Agreement.  
+                                        <string key="content"> Service Provider may furnish Accommodation listings through online booking websites, applications or other outside third-party reservation providers (collectively “Booking Providers”).  The relationship between Service Provider and these Booking Providers is strictly limited to that of third-party contractors.  No employment, joint venture, or partnership arrangement exists between Service Provider and Booking Providers.  Accordingly, the terms and conditions of any such Booking Provider or Booking Provider service used by Guest to view, reserve, or payments for an Accommodation furnished by Service Provider as part of the Services (as defined below), has no relationship to these Terms or this Agreement.  
 
 Guest acknowledges and agrees that Guest, and not Service Provider, will be responsible for performing the obligations of any agreements between Guest and Booking Providers, that Service Provider is not a party to such agreements, and that Service Provider disclaims all liability arising from or related to any such agreements with Booking Providers.  Service Provider makes no warranties or representations regarding the statements, conduct, omissions, or actions of any Booking Provider, unless explicitly stated in writing by Service Provider.
 
-</mutableString>
+</string>
                                         <attributes>
                                             <font key="NSFont" size="21" name=".AppleSystemUIFont"/>
                                         </attributes>
@@ -197,9 +197,9 @@ Guest acknowledges and agrees that Guest, and not Service Provider, will be resp
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">Circumstances outside of the control of Service Provider may cause Guest’s confirmed Accommodation to be unavailable.  In the event of such an occurrence, Service Provider reserves the right to substitute comparable accommodations.  Service Provider cannot guarantee the confirmed rental rate in such circumstances, however, rental rate and substitute Accommodations will be subject to Guest approval.  If the Guest does not approve the rental rate or substitute accommodations, and the circumstances causing the unavailability of the confirmed Accommodation were not caused by Guest, an individual in Guest’s party or an individual invited by Guest into the Accommodation, then a refund of the prorated amount of rental fees will be made to and the security deposit will be returned pursuant to this Agreement.  If a confirmed Accommodation is unavailable and a comparable Accommodation is provided, the comparable Accommodation will be the Accommodation which this Agreement relates.  
+                                        <string key="content">Circumstances outside of the control of Service Provider may cause Guest’s confirmed Accommodation to be unavailable.  In the event of such an occurrence, Service Provider reserves the right to substitute comparable accommodations.  Service Provider cannot guarantee the confirmed rental rate in such circumstances, however, rental rate and substitute Accommodations will be subject to Guest approval.  If the Guest does not approve the rental rate or substitute accommodations, and the circumstances causing the unavailability of the confirmed Accommodation were not caused by Guest, an individual in Guest’s party or an individual invited by Guest into the Accommodation, then a refund of the prorated amount of rental fees will be made to and the security deposit will be returned pursuant to this Agreement.  If a confirmed Accommodation is unavailable and a comparable Accommodation is provided, the comparable Accommodation will be the Accommodation which this Agreement relates.  
 
-</mutableString>
+</string>
                                         <attributes>
                                             <font key="NSFont" size="21" name=".AppleSystemUIFont"/>
                                         </attributes>
@@ -223,7 +223,7 @@ Guest acknowledges and agrees that Guest, and not Service Provider, will be resp
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">Service Provider reserves the immediate right of entry into the Accommodation or surrounding areas in case of emergency, or to protect or preserve the Accommodation or the Premises.  Guest shall not alter or add locks, or impede Service Provider or Service Provider’s agents from immediate access in the event of emergency or immediate need to preserve or maintain the Accommodation or Premises.  In the event that maintenance or repair is required, Service Provider will provide Guest with advanced notice of such maintenance or repair.  Such notice must only be reasonable in light of the need and immediacy for Service Provider or Service Provider’s agent’s entry into the Accommodation.  
+                                        <string key="content">Service Provider reserves the immediate right of entry into the Accommodation or surrounding areas in case of emergency, or to protect or preserve the Accommodation or the Premises.  Guest shall not alter or add locks, or impede Service Provider or Service Provider’s agents from immediate access in the event of emergency or immediate need to preserve or maintain the Accommodation or Premises.  In the event that maintenance or repair is required, Service Provider will provide Guest with advanced notice of such maintenance or repair.  Such notice must only be reasonable in light of the need and immediacy for Service Provider or Service Provider’s agent’s entry into the Accommodation.  
 
 CANCELLATIONS.  All cancellations must be made in writing. Cancellations made within 91 days are not subject to cancellation fees. Cancellations made within 90 days to 61 days of are subject to a 50% of TOTAL AMOUNT OF ACCOMODATIONS RENTAL AGREEMENT cancellation fee.  Cancellations made within 60 days to 31 days of are subject to a 75% of TOTAL AMOUNT OF ACCOMODATIONS RENTAL AGREEMENT cancellation fee.   Should Guest cancel 30 days or less before arrival, the TOTAL AMOUNT OF ACCOMODATIONS RENTAL AGREEMENT becomes due, unless the Accommodation can be rented to another party for the same time period and the same rental fee.  In this case, an administrative fee of 20% of TOTAL AMOUNT OF ACCOMODATIONS RENTAL AGREEMENT becomes due plus any rental fee differential.  
 
@@ -286,7 +286,7 @@ AMENDMENT AND MODIFICATION.  This Agreement may only be amended or modified in a
 BINDING EFFECT.  This Agreement shall be binding upon, and shall inure to, the benefit of the successors and assigns of the parties hereto, subject to the terms hereof.  
 
 COUNTERPARTS.  This Agreement may be executed in one or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.  
-</mutableString>
+</string>
                                         <attributes>
                                             <font key="NSFont" size="21" name=".AppleSystemUIFont"/>
                                         </attributes>

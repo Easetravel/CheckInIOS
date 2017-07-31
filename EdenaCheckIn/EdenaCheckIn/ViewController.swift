@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var allfield = false;
 
     @IBOutlet weak var Continue: UIButton!
     @IBOutlet weak var termsAgree: UISwitch!
@@ -27,7 +28,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         createDatePicker()
-        // Do any additional setup after loading the view, typically from a nib.
+        // add constrain 
+        FirstNameText.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
+        LastNameText.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
+        NumGuestText.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
+        ReservationNoText.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
+        ExpirationDatePicker.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
+        CreditCardText.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
+        HolderText.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
+        CvvText.addTarget(self, action: #selector(editingChanged), for: .editingChanged)
+        //modify continue button
+        Continue.isEnabled = false
+        Continue.backgroundColor = UIColor(red:0.75, green:0.75, blue:0.75, alpha:1.0)
     }
 
     override func didReceiveMemoryWarning() {
@@ -74,9 +86,38 @@ class ViewController: UIViewController {
 //        ExpirationDatePicker.text = dateFormatter.string(from: datePicker.date)
         self.view.endEditing(true)
     }
+    
+    func editingChanged(_ textField: LineTextField) {
+        if textField.text?.characters.count == 1 {
+            if textField.text?.characters.first == " " {
+                textField.text = ""
+                return
+            }
+        }
+        guard
+            let firstname = FirstNameText.text, !firstname.isEmpty,
+            let lastname = LastNameText.text, !lastname.isEmpty,
+            let numguest = NumGuestText.text, !numguest.isEmpty,
+            let reservno = ReservationNoText.text, !reservno.isEmpty,
+            let expdate = ExpirationDatePicker.text, !firstname.isEmpty,
+            let creditcardno = CreditCardText.text, !firstname.isEmpty,
+            let cvv = CvvText.text, !cvv.isEmpty,
+            let cardholder = HolderText.text, !cardholder.isEmpty,
+            termsAgree.isOn
+            else {
+                Continue.isEnabled = false
+                Continue.backgroundColor = UIColor(red:0.75, green:0.75, blue:0.75, alpha:1.0)
+                allfield = true;
+                return
+        }
+        Continue.isEnabled = true
+        Continue.backgroundColor = UIColor(red:0.40, green:0.78, blue:1.00, alpha:1.0)
+        allfield = false;
+    }
 
     @IBAction func agree(_ sender: UISwitch) {
-        if termsAgree.isOn{
+        if (allfield && termsAgree.isOn)
+        {
             Continue.isEnabled = true
             Continue.backgroundColor = UIColor(red:0.40, green:0.78, blue:1.00, alpha:1.0)
 

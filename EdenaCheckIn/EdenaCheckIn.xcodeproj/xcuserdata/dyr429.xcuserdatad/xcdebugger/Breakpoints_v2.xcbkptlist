@@ -101,12 +101,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EdenaCheckIn/ViewController.swift"
-            timestampString = "521522317.093424"
+            timestampString = "523224493.682494"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "createDatePicker()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EdenaCheckIn/ViewController.swift"
+            timestampString = "523224493.682494"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "editingChanged(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

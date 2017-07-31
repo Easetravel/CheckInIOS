@@ -56,12 +56,15 @@ class ViewConfirm : UIViewController{
         TimeStamp.text = getTodayString()
     }
     @IBAction func screenShot(_ sender: UIButton) {
+        if(self.signitureView.doesContainSignature == true){
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, UIScreen.main.scale)
         view.layer.render(in: UIGraphicsGetCurrentContext()!)
         var screenshot = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
-        UIImageWriteToSavedPhotosAlbum(screenshot!, nil, nil, nil)
+            UIImageWriteToSavedPhotosAlbum(screenshot!, nil, nil, nil)
         
+        self.performSegue(withIdentifier: "toThanksView", sender: self)
+        }
     
     }
     func getTodayString() -> String{

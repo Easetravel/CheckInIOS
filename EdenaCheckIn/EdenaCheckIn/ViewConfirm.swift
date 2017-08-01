@@ -13,7 +13,7 @@ class ViewConfirm : UIViewController{
     
  
     @IBOutlet weak var Continue: UIButton!
-    @IBOutlet weak var signitureView: YPDrawSignatureView!
+    @IBOutlet weak var signitureView: YPDrawSignatureView! 
     @IBOutlet weak var TimeStamp: UILabel!
     @IBOutlet weak var BgImage: UIImageView!
     
@@ -112,15 +112,18 @@ class ViewConfirm : UIViewController{
             Continue.backgroundColor = UIColor(red:0.75, green:0.75, blue:0.75, alpha:1.0)
         }
     }
+    
+    
+    func touchesMoved(_ touches: Set<YPDrawSignatureView>, with event: UIEvent?) {
+        print("hello")
+    }
 
     
     
     
     @IBAction func Clear(_ sender: UIButton) {
         self.signitureView.clear()
-        Continue.isEnabled = false;
-        Continue.backgroundColor = UIColor(red:0.75, green:0.75, blue:0.75, alpha:1.0)
-
+        
     }
 
 

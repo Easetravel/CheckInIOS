@@ -8,6 +8,20 @@
             <PersistentString
                value = "termsAgree.isOn">
             </PersistentString>
+            <PersistentString
+               value = "!email.isEmpty">
+            </PersistentString>
+            <PersistentString
+               value = "!cardholder.isEmpty">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.agree(UISwitch) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "allfield">
+            </PersistentString>
          </PersistentStrings>
       </ContextState>
    </ContextStates>

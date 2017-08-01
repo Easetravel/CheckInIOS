@@ -11,11 +11,14 @@ import UIKit
 
 class ViewConfirm : UIViewController{
     
-    
+ 
+    @IBOutlet weak var Continue: UIButton!
     @IBOutlet weak var signitureView: YPDrawSignatureView!
     @IBOutlet weak var TimeStamp: UILabel!
     @IBOutlet weak var BgImage: UIImageView!
     
+    
+    @IBOutlet weak var EmailLabel: UILabel!
     @IBOutlet weak var FirstNameLabel: UILabel!
     @IBOutlet weak var LastNameLabel: UILabel!
     @IBOutlet weak var NumGuestLabel: UILabel!
@@ -35,6 +38,9 @@ class ViewConfirm : UIViewController{
     var dateReceiver = String()
     var holderReceiver = String()
     var cvvReceiver = String()
+    var emailReceiver = String()
+    
+
     
     override func viewDidLoad() {
         BgImage.layer.borderColor = UIColor(red:0.18, green:0.66, blue:0.88, alpha:1.0).cgColor
@@ -51,9 +57,12 @@ class ViewConfirm : UIViewController{
         DateLabel.text = dateReceiver
         HolerLabel.text = holderReceiver
         CvvLabel.text = cvvReceiver
+        EmailLabel.text = emailReceiver
         
         
         TimeStamp.text = getTodayString()
+//        
+                
     }
     @IBAction func screenShot(_ sender: UIButton) {
         if(self.signitureView.doesContainSignature == true){
@@ -62,8 +71,14 @@ class ViewConfirm : UIViewController{
         var screenshot = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
             UIImageWriteToSavedPhotosAlbum(screenshot!, nil, nil, nil)
+            
         
         self.performSegue(withIdentifier: "toThanksView", sender: self)
+        }
+        else{
+            let alert = UIAlertController(title: "Alert", message: "Please Sign", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
         }
     
     }
@@ -86,8 +101,26 @@ class ViewConfirm : UIViewController{
         return today_string
         
     }
+    
+    func updateButton(){
+        if(self.signitureView.doesContainSignature){
+            Continue.isEnabled = true
+            Continue.backgroundColor = UIColor(red:0.40, green:0.78, blue:1.00, alpha:1.0)
+            
+        }else{
+            Continue.isEnabled = false;
+            Continue.backgroundColor = UIColor(red:0.75, green:0.75, blue:0.75, alpha:1.0)
+        }
+    }
+
+    
+    
+    
     @IBAction func Clear(_ sender: UIButton) {
         self.signitureView.clear()
+        Continue.isEnabled = false;
+        Continue.backgroundColor = UIColor(red:0.75, green:0.75, blue:0.75, alpha:1.0)
+
     }
 
 

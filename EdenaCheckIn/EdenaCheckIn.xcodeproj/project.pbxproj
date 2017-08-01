@@ -18,6 +18,7 @@
 		B2FC44641F010C4D00ED38F7 /* ViewConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FC44631F010C4D00ED38F7 /* ViewConfirm.swift */; };
 		B66D2DBB1F1201410095951F /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66D2DBA1F1201410095951F /* MonthYearPickerView.swift */; };
 		B697FB631F15C458001365D5 /* YPDrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697FB621F15C458001365D5 /* YPDrawSignatureView.swift */; };
+		B6DBC3731F30483100FAE4E0 /* welcomeviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DBC3721F30483100FAE4E0 /* welcomeviewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B2FC44631F010C4D00ED38F7 /* ViewConfirm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfirm.swift; sourceTree = "<group>"; };
 		B66D2DBA1F1201410095951F /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
 		B697FB621F15C458001365D5 /* YPDrawSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPDrawSignatureView.swift; sourceTree = "<group>"; };
+		B6DBC3721F30483100FAE4E0 /* welcomeviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeviewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				B2D5ADCB1EFFF89D008A8574 /* Assets.xcassets */,
 				B2D5ADCD1EFFF89D008A8574 /* LaunchScreen.storyboard */,
 				B2D5ADD01EFFF89D008A8574 /* Info.plist */,
+				B6DBC3721F30483100FAE4E0 /* welcomeviewController.swift */,
 			);
 			path = EdenaCheckIn;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2D5ADC71EFFF89D008A8574 /* ViewController.swift in Sources */,
+				B6DBC3731F30483100FAE4E0 /* welcomeviewController.swift in Sources */,
 				B66D2DBB1F1201410095951F /* MonthYearPickerView.swift in Sources */,
 				B697FB631F15C458001365D5 /* YPDrawSignatureView.swift in Sources */,
 				B2FC44641F010C4D00ED38F7 /* ViewConfirm.swift in Sources */,

@@ -1,0 +1,945 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04857CD9E2E74A6C4F84D12495F90F27 /* SquarePointOfSaleSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF0375CECDBAA6FDCD12A546E330CAC /* SquarePointOfSaleSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04DBB2C8F9A64ABE169FE9A9C2630655 /* Pods-EdenaCheckIn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5E0807CF3B484E3E5BE350D4555352 /* Pods-EdenaCheckIn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A6CD0D29EB59BE3011126FF48B83F32 /* SquarePointOfSaleSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80183C10AD6097F0264E003C9DC919EF /* SquarePointOfSaleSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FF0EAAFAF311065AB79E221F7B1D580 /* Pods-EdenaCheckInUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0993C177946412E0357CD70A8F33398D /* Pods-EdenaCheckInUITests-dummy.m */; };
+		1BCAECC29EFE0C0880F5035D049D33EA /* NSError+SCCAPIAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7ACDDA8D86FA5DBCC54600D25E1883 /* NSError+SCCAPIAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C586673E17842F80DB9BEBD9996F071 /* SCCAPIConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBE5B9E433438A16AF49A5B0F35F92F /* SCCAPIConnection.m */; };
+		2678F766845AB5E3A243EEBB2A62155B /* Pods-EdenaCheckIn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 153147398E6598D5B4098D46BB0EBFEA /* Pods-EdenaCheckIn-dummy.m */; };
+		32FA10FE56E4387C98097EB583786699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3CF8CC6663E31ACFE9510BE4296860C4 /* Pods-EdenaCheckInTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C782899DAB4F19F0750B74417824D0E0 /* Pods-EdenaCheckInTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D7AEC90D1698DD44CDA015B93A810FD /* SCCAPIRequest+Serialization.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC890D477AC69AA5A376136B077CA08 /* SCCAPIRequest+Serialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BA9FB2A373104F9CF62D2F990C6FE96 /* SCCAPIResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B65809DA867FEDDDA5FDB2AF99E1C26B /* SCCAPIResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CDD98B81C7D56B9F2E88DBA179A24B6 /* SCCMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = AB79E7DF0BFBE2A377AB8A061E9D550C /* SCCMoney.m */; };
+		50D6EB6E7DB7EB36A70481AFE81B09AB /* NSDictionary+SCCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EDE66743D625D6679113CF13F597FD /* NSDictionary+SCCAdditions.m */; };
+		5412CEFA901139C87BD36860678476D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5717E9E7DD9ED9A11B3959C9C9622E73 /* SCCAPIResponse+Serialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 82F1A9D3ED04F6F304213E8BEBA1FD76 /* SCCAPIResponse+Serialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67033D0DA86C4E340B7670D56D2EEDF0 /* Pods-EdenaCheckInUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADCF9E5E39EBE8EA89FCA291DE35B039 /* Pods-EdenaCheckInUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F72FFFC72BA0CCF6919D4E59A7955EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8FBB9FF501444460E778E85B6B64F2BE /* SCCAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 605D18DAF7A32EC34B551B0CFAA2EEBB /* SCCAPIRequest.m */; };
+		96F3162F694985183C0BEC62DA381C73 /* NSError+SCCAPISerializationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A407593FE7CC50D25C448BB8B9B5F1DF /* NSError+SCCAPISerializationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9935ECB456159CD81822E41D791F292D /* SCCMoney.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1FB491E74A9D23D2B7F24E12F76D36 /* SCCMoney.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA7A6CCA781B568942886A9494E542FC /* SCCAPIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 47500A4F6569491EFCFD9BA3A29D06C7 /* SCCAPIResponse.m */; };
+		B05E8DBFA36CA95838261F9A9C600837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BC458D98E8329CCDFAEAA7070C234C88 /* NSError+SCCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4D30377C32D9575B4E52852F8CA75 /* NSError+SCCAdditions.m */; };
+		BE4568B3D5708691BCBA84FF7EF96AE9 /* SquarePointOfSaleSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F81852D17A774793EA220FB8BCDB8C0C /* SquarePointOfSaleSDK-dummy.m */; };
+		BF45E45B2E9C8242113A9ECD5FFA0A5C /* NSError+SCCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A187CC59AD021C714AE9F6EED4DB364 /* NSError+SCCAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6B3F64DB0785A20D5FB58719F09A693 /* NSDictionary+SCCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 774962FD5260F83E168B233E65FC7C2C /* NSDictionary+SCCAdditions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C8B02FFB428DB1E20ED5369F85644953 /* SCCMoney+Serialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B00A021677ED5A0C59F3C3BC062C9509 /* SCCMoney+Serialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1A676E6E62839B3CFF9BF068026417F /* NSURL+SCCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 00687C6D13A97F68EFC9B01D6DD0AEBB /* NSURL+SCCAdditions.m */; };
+		D7743C86B9AB0D41AD77CB0FC62BA394 /* NSURL+SCCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C61E302A84087BC7C82E7A65368263 /* NSURL+SCCAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9C333C50C94E0B89EEAE269FD5CAFB1 /* Pods-EdenaCheckInTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8754936242CD988F925E8D9004147A13 /* Pods-EdenaCheckInTests-dummy.m */; };
+		FA8DBE961AD51DDBC12CAF077C79B70C /* SCCAPIConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F89DA01D9A3B139D636E5128B01E779 /* SCCAPIConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD32D401F484FB6D1E5B614756DE7F3A /* SCCAPIConnection_Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C0F404AB8BDF554698CB94173CDA08 /* SCCAPIConnection_Testing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE36100A630884EBF466B3D1D163A546 /* NSError+SCCAPIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3B75CF5D569F721261B1FD0583438C /* NSError+SCCAPIAdditions.m */; };
+		FF1F34BB06C63610DE157038F9AEEF43 /* SCCAPIRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6E83344D55238EB3963F43D21A890A /* SCCAPIRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D1040935BC1ECD9053A5103C2E4918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6B8CB8EBC798085E228D86DBD05FF5;
+			remoteInfo = SquarePointOfSaleSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00687C6D13A97F68EFC9B01D6DD0AEBB /* NSURL+SCCAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+SCCAdditions.m"; path = "Sources/Categories/NSURL+SCCAdditions.m"; sourceTree = "<group>"; };
+		04E2649615E74C254A7B9B13530C9CFD /* SquarePointOfSaleSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SquarePointOfSaleSDK-prefix.pch"; sourceTree = "<group>"; };
+		0993C177946412E0357CD70A8F33398D /* Pods-EdenaCheckInUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EdenaCheckInUITests-dummy.m"; sourceTree = "<group>"; };
+		0DD1B1C77279A23ED919F7353DD0CD8C /* Pods-EdenaCheckIn-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EdenaCheckIn-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1382E79350162B0F12A4A32AD4657757 /* SquarePointOfSaleSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SquarePointOfSaleSDK.framework; path = SquarePointOfSaleSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		153147398E6598D5B4098D46BB0EBFEA /* Pods-EdenaCheckIn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EdenaCheckIn-dummy.m"; sourceTree = "<group>"; };
+		18E4D30377C32D9575B4E52852F8CA75 /* NSError+SCCAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+SCCAdditions.m"; path = "Sources/Categories/NSError+SCCAdditions.m"; sourceTree = "<group>"; };
+		1E3ABE5298A10DB24144332BF411E5E7 /* Pods-EdenaCheckInUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EdenaCheckInUITests.modulemap"; sourceTree = "<group>"; };
+		1F81BB574BB136B604E4880A0CD73A97 /* Pods-EdenaCheckInTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EdenaCheckInTests-frameworks.sh"; sourceTree = "<group>"; };
+		1F89DA01D9A3B139D636E5128B01E779 /* SCCAPIConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCCAPIConnection.h; path = Sources/SCCAPIConnection.h; sourceTree = "<group>"; };
+		2981145A36B51E6901CC0FF17B8CB783 /* SquarePointOfSaleSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SquarePointOfSaleSDK.modulemap; sourceTree = "<group>"; };
+		2B3B75CF5D569F721261B1FD0583438C /* NSError+SCCAPIAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+SCCAPIAdditions.m"; path = "Sources/Categories/NSError+SCCAPIAdditions.m"; sourceTree = "<group>"; };
+		372D3EC089BF9773ACA01FD5692D11B4 /* Pods-EdenaCheckInUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EdenaCheckInUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E569E7C6B08B30834DBF1A52894BC86 /* Pods_EdenaCheckIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EdenaCheckIn.framework; path = "Pods-EdenaCheckIn.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E1A3BF09A596413A7ED68566339B75 /* Pods-EdenaCheckInTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EdenaCheckInTests.modulemap"; sourceTree = "<group>"; };
+		47500A4F6569491EFCFD9BA3A29D06C7 /* SCCAPIResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCCAPIResponse.m; path = Sources/SCCAPIResponse.m; sourceTree = "<group>"; };
+		47F08E3B1495BF7B4236129C7BFCAA69 /* Pods_EdenaCheckInTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EdenaCheckInTests.framework; path = "Pods-EdenaCheckInTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBF583C04A7F540771B3333598F1C39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5735BB0FA1D58FCBC201A5CA9AD48B37 /* Pods-EdenaCheckIn.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EdenaCheckIn.modulemap"; sourceTree = "<group>"; };
+		57A843E4CFA595C3751A3CBD6D9E412C /* Pods-EdenaCheckIn-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EdenaCheckIn-frameworks.sh"; sourceTree = "<group>"; };
+		5E998ACF1D5898D3E22AE44CA3B6C5FE /* Pods-EdenaCheckInUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdenaCheckInUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F5E0807CF3B484E3E5BE350D4555352 /* Pods-EdenaCheckIn-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EdenaCheckIn-umbrella.h"; sourceTree = "<group>"; };
+		5FA89738C5DAB61840D3B52EB0D31961 /* Pods-EdenaCheckInTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EdenaCheckInTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		605D18DAF7A32EC34B551B0CFAA2EEBB /* SCCAPIRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCCAPIRequest.m; path = Sources/SCCAPIRequest.m; sourceTree = "<group>"; };
+		64C0F404AB8BDF554698CB94173CDA08 /* SCCAPIConnection_Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCCAPIConnection_Testing.h; path = Sources/SCCAPIConnection_Testing.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66B906DD0347CCF93AB70CDEF58C812B /* Pods-EdenaCheckInUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EdenaCheckInUITests-resources.sh"; sourceTree = "<group>"; };
+		6A187CC59AD021C714AE9F6EED4DB364 /* NSError+SCCAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+SCCAdditions.h"; path = "Sources/Categories/NSError+SCCAdditions.h"; sourceTree = "<group>"; };
+		6AF0375CECDBAA6FDCD12A546E330CAC /* SquarePointOfSaleSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SquarePointOfSaleSDK.h; path = Sources/SquarePointOfSaleSDK.h; sourceTree = "<group>"; };
+		72260DEA9FA11EDA0B2EF0F54F75CE95 /* Pods-EdenaCheckIn-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EdenaCheckIn-resources.sh"; sourceTree = "<group>"; };
+		736963C8FAC6252243E7BBF285D2B596 /* Pods-EdenaCheckIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdenaCheckIn.debug.xcconfig"; sourceTree = "<group>"; };
+		774962FD5260F83E168B233E65FC7C2C /* NSDictionary+SCCAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SCCAdditions.h"; path = "Sources/Categories/NSDictionary+SCCAdditions.h"; sourceTree = "<group>"; };
+		77A9AA9F60C126192597C30464D2674D /* Pods-EdenaCheckInUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EdenaCheckInUITests-frameworks.sh"; sourceTree = "<group>"; };
+		80183C10AD6097F0264E003C9DC919EF /* SquarePointOfSaleSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SquarePointOfSaleSDK-umbrella.h"; sourceTree = "<group>"; };
+		82F1A9D3ED04F6F304213E8BEBA1FD76 /* SCCAPIResponse+Serialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCCAPIResponse+Serialization.h"; path = "Sources/Categories/SCCAPIResponse+Serialization.h"; sourceTree = "<group>"; };
+		8754936242CD988F925E8D9004147A13 /* Pods-EdenaCheckInTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EdenaCheckInTests-dummy.m"; sourceTree = "<group>"; };
+		8C1FB491E74A9D23D2B7F24E12F76D36 /* SCCMoney.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCCMoney.h; path = Sources/SCCMoney.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D0E4994D547A4A200B6BBFCE60D764 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98207199547F3955882AD557536FD27D /* Pods-EdenaCheckInTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdenaCheckInTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A1E92CF8DF870BC5914E5A84A5E9AC1 /* Pods_EdenaCheckInUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EdenaCheckInUITests.framework; path = "Pods-EdenaCheckInUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7ACDDA8D86FA5DBCC54600D25E1883 /* NSError+SCCAPIAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+SCCAPIAdditions.h"; path = "Sources/Categories/NSError+SCCAPIAdditions.h"; sourceTree = "<group>"; };
+		9E6E83344D55238EB3963F43D21A890A /* SCCAPIRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCCAPIRequest.h; path = Sources/SCCAPIRequest.h; sourceTree = "<group>"; };
+		A407593FE7CC50D25C448BB8B9B5F1DF /* NSError+SCCAPISerializationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+SCCAPISerializationAdditions.h"; path = "Sources/Categories/NSError+SCCAPISerializationAdditions.h"; sourceTree = "<group>"; };
+		AB79E7DF0BFBE2A377AB8A061E9D550C /* SCCMoney.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCCMoney.m; path = Sources/SCCMoney.m; sourceTree = "<group>"; };
+		ADCF9E5E39EBE8EA89FCA291DE35B039 /* Pods-EdenaCheckInUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EdenaCheckInUITests-umbrella.h"; sourceTree = "<group>"; };
+		B00A021677ED5A0C59F3C3BC062C9509 /* SCCMoney+Serialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCCMoney+Serialization.h"; path = "Sources/Categories/SCCMoney+Serialization.h"; sourceTree = "<group>"; };
+		B65809DA867FEDDDA5FDB2AF99E1C26B /* SCCAPIResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCCAPIResponse.h; path = Sources/SCCAPIResponse.h; sourceTree = "<group>"; };
+		B9BE307F6B17874371E1004A596A1F37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF23AD16D04F2C94396B90A20AD174AE /* Pods-EdenaCheckInUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EdenaCheckInUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFC890D477AC69AA5A376136B077CA08 /* SCCAPIRequest+Serialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCCAPIRequest+Serialization.h"; path = "Sources/Categories/SCCAPIRequest+Serialization.h"; sourceTree = "<group>"; };
+		C452E6FB12C1477DBD5C0DA67094BB1E /* Pods-EdenaCheckInUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdenaCheckInUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C782899DAB4F19F0750B74417824D0E0 /* Pods-EdenaCheckInTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EdenaCheckInTests-umbrella.h"; sourceTree = "<group>"; };
+		C9264E2CC13A9A6F86170C90D892A8D4 /* Pods-EdenaCheckInTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EdenaCheckInTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D11A10015464E95987063AFA03F783FC /* SquarePointOfSaleSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SquarePointOfSaleSDK.xcconfig; sourceTree = "<group>"; };
+		D3C61E302A84087BC7C82E7A65368263 /* NSURL+SCCAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+SCCAdditions.h"; path = "Sources/Categories/NSURL+SCCAdditions.h"; sourceTree = "<group>"; };
+		D4F18F2B8460EF14E181953FE6E17E59 /* Pods-EdenaCheckInTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdenaCheckInTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6EDE66743D625D6679113CF13F597FD /* NSDictionary+SCCAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SCCAdditions.m"; path = "Sources/Categories/NSDictionary+SCCAdditions.m"; sourceTree = "<group>"; };
+		D6FE11AD342D190C4A6CACCD0C13E9B6 /* Pods-EdenaCheckIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EdenaCheckIn.release.xcconfig"; sourceTree = "<group>"; };
+		E3C26B18BD5B429F5AC42FEDB730566A /* Pods-EdenaCheckIn-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EdenaCheckIn-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5BC99E836F7EAA9DBD2EF8CEAA757E3 /* Pods-EdenaCheckInTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EdenaCheckInTests-resources.sh"; sourceTree = "<group>"; };
+		EF39F9FD2C567E4E4AB9B55442A4D46E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81852D17A774793EA220FB8BCDB8C0C /* SquarePointOfSaleSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SquarePointOfSaleSDK-dummy.m"; sourceTree = "<group>"; };
+		FFBE5B9E433438A16AF49A5B0F35F92F /* SCCAPIConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCCAPIConnection.m; path = Sources/SCCAPIConnection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11270AB349443E6999A4D9A0FB1162B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F72FFFC72BA0CCF6919D4E59A7955EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8B7AFEF015A1D1EFE544FBE06882CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5412CEFA901139C87BD36860678476D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CAA3138DA133B5A40CB4F2B9A9D9DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FA10FE56E4387C98097EB583786699 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32AF0721AD4D1C73F192527A41D68D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05E8DBFA36CA95838261F9A9C600837 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31B65D1AFBB9552D657ABDB2DCE937F9 /* Pods-EdenaCheckInUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CBF583C04A7F540771B3333598F1C39 /* Info.plist */,
+				1E3ABE5298A10DB24144332BF411E5E7 /* Pods-EdenaCheckInUITests.modulemap */,
+				BF23AD16D04F2C94396B90A20AD174AE /* Pods-EdenaCheckInUITests-acknowledgements.markdown */,
+				372D3EC089BF9773ACA01FD5692D11B4 /* Pods-EdenaCheckInUITests-acknowledgements.plist */,
+				0993C177946412E0357CD70A8F33398D /* Pods-EdenaCheckInUITests-dummy.m */,
+				77A9AA9F60C126192597C30464D2674D /* Pods-EdenaCheckInUITests-frameworks.sh */,
+				66B906DD0347CCF93AB70CDEF58C812B /* Pods-EdenaCheckInUITests-resources.sh */,
+				ADCF9E5E39EBE8EA89FCA291DE35B039 /* Pods-EdenaCheckInUITests-umbrella.h */,
+				C452E6FB12C1477DBD5C0DA67094BB1E /* Pods-EdenaCheckInUITests.debug.xcconfig */,
+				5E998ACF1D5898D3E22AE44CA3B6C5FE /* Pods-EdenaCheckInUITests.release.xcconfig */,
+			);
+			name = "Pods-EdenaCheckInUITests";
+			path = "Target Support Files/Pods-EdenaCheckInUITests";
+			sourceTree = "<group>";
+		};
+		52E2168699328EF37A1EA44D9C3BAFCD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF39F9FD2C567E4E4AB9B55442A4D46E /* Info.plist */,
+				2981145A36B51E6901CC0FF17B8CB783 /* SquarePointOfSaleSDK.modulemap */,
+				D11A10015464E95987063AFA03F783FC /* SquarePointOfSaleSDK.xcconfig */,
+				F81852D17A774793EA220FB8BCDB8C0C /* SquarePointOfSaleSDK-dummy.m */,
+				04E2649615E74C254A7B9B13530C9CFD /* SquarePointOfSaleSDK-prefix.pch */,
+				80183C10AD6097F0264E003C9DC919EF /* SquarePointOfSaleSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SquarePointOfSaleSDK";
+			sourceTree = "<group>";
+		};
+		65582E911A61018938EA7D08AB9D5854 /* SquarePointOfSaleSDK */ = {
+			isa = PBXGroup;
+			children = (
+				774962FD5260F83E168B233E65FC7C2C /* NSDictionary+SCCAdditions.h */,
+				D6EDE66743D625D6679113CF13F597FD /* NSDictionary+SCCAdditions.m */,
+				6A187CC59AD021C714AE9F6EED4DB364 /* NSError+SCCAdditions.h */,
+				18E4D30377C32D9575B4E52852F8CA75 /* NSError+SCCAdditions.m */,
+				9A7ACDDA8D86FA5DBCC54600D25E1883 /* NSError+SCCAPIAdditions.h */,
+				2B3B75CF5D569F721261B1FD0583438C /* NSError+SCCAPIAdditions.m */,
+				A407593FE7CC50D25C448BB8B9B5F1DF /* NSError+SCCAPISerializationAdditions.h */,
+				D3C61E302A84087BC7C82E7A65368263 /* NSURL+SCCAdditions.h */,
+				00687C6D13A97F68EFC9B01D6DD0AEBB /* NSURL+SCCAdditions.m */,
+				1F89DA01D9A3B139D636E5128B01E779 /* SCCAPIConnection.h */,
+				FFBE5B9E433438A16AF49A5B0F35F92F /* SCCAPIConnection.m */,
+				64C0F404AB8BDF554698CB94173CDA08 /* SCCAPIConnection_Testing.h */,
+				9E6E83344D55238EB3963F43D21A890A /* SCCAPIRequest.h */,
+				605D18DAF7A32EC34B551B0CFAA2EEBB /* SCCAPIRequest.m */,
+				BFC890D477AC69AA5A376136B077CA08 /* SCCAPIRequest+Serialization.h */,
+				B65809DA867FEDDDA5FDB2AF99E1C26B /* SCCAPIResponse.h */,
+				47500A4F6569491EFCFD9BA3A29D06C7 /* SCCAPIResponse.m */,
+				82F1A9D3ED04F6F304213E8BEBA1FD76 /* SCCAPIResponse+Serialization.h */,
+				8C1FB491E74A9D23D2B7F24E12F76D36 /* SCCMoney.h */,
+				AB79E7DF0BFBE2A377AB8A061E9D550C /* SCCMoney.m */,
+				B00A021677ED5A0C59F3C3BC062C9509 /* SCCMoney+Serialization.h */,
+				6AF0375CECDBAA6FDCD12A546E330CAC /* SquarePointOfSaleSDK.h */,
+				52E2168699328EF37A1EA44D9C3BAFCD /* Support Files */,
+			);
+			name = SquarePointOfSaleSDK;
+			path = SquarePointOfSaleSDK;
+			sourceTree = "<group>";
+		};
+		7BC21FC5BAADECA8A6F584220E5C010F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB5F6E02D4001A9D2FBAD5F8D91B46 /* Pods-EdenaCheckIn */,
+				B3146F5CA18D19ACFD85D471FBB7380D /* Pods-EdenaCheckInTests */,
+				31B65D1AFBB9552D657ABDB2DCE937F9 /* Pods-EdenaCheckInUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EDECF4555CD2395B28CA0BD832C4D029 /* Pods */,
+				E43DD028FD42730A6743EB0070E2B18D /* Products */,
+				7BC21FC5BAADECA8A6F584220E5C010F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B3146F5CA18D19ACFD85D471FBB7380D /* Pods-EdenaCheckInTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9BE307F6B17874371E1004A596A1F37 /* Info.plist */,
+				45E1A3BF09A596413A7ED68566339B75 /* Pods-EdenaCheckInTests.modulemap */,
+				C9264E2CC13A9A6F86170C90D892A8D4 /* Pods-EdenaCheckInTests-acknowledgements.markdown */,
+				5FA89738C5DAB61840D3B52EB0D31961 /* Pods-EdenaCheckInTests-acknowledgements.plist */,
+				8754936242CD988F925E8D9004147A13 /* Pods-EdenaCheckInTests-dummy.m */,
+				1F81BB574BB136B604E4880A0CD73A97 /* Pods-EdenaCheckInTests-frameworks.sh */,
+				E5BC99E836F7EAA9DBD2EF8CEAA757E3 /* Pods-EdenaCheckInTests-resources.sh */,
+				C782899DAB4F19F0750B74417824D0E0 /* Pods-EdenaCheckInTests-umbrella.h */,
+				D4F18F2B8460EF14E181953FE6E17E59 /* Pods-EdenaCheckInTests.debug.xcconfig */,
+				98207199547F3955882AD557536FD27D /* Pods-EdenaCheckInTests.release.xcconfig */,
+			);
+			name = "Pods-EdenaCheckInTests";
+			path = "Target Support Files/Pods-EdenaCheckInTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5BB5F6E02D4001A9D2FBAD5F8D91B46 /* Pods-EdenaCheckIn */ = {
+			isa = PBXGroup;
+			children = (
+				96D0E4994D547A4A200B6BBFCE60D764 /* Info.plist */,
+				5735BB0FA1D58FCBC201A5CA9AD48B37 /* Pods-EdenaCheckIn.modulemap */,
+				0DD1B1C77279A23ED919F7353DD0CD8C /* Pods-EdenaCheckIn-acknowledgements.markdown */,
+				E3C26B18BD5B429F5AC42FEDB730566A /* Pods-EdenaCheckIn-acknowledgements.plist */,
+				153147398E6598D5B4098D46BB0EBFEA /* Pods-EdenaCheckIn-dummy.m */,
+				57A843E4CFA595C3751A3CBD6D9E412C /* Pods-EdenaCheckIn-frameworks.sh */,
+				72260DEA9FA11EDA0B2EF0F54F75CE95 /* Pods-EdenaCheckIn-resources.sh */,
+				5F5E0807CF3B484E3E5BE350D4555352 /* Pods-EdenaCheckIn-umbrella.h */,
+				736963C8FAC6252243E7BBF285D2B596 /* Pods-EdenaCheckIn.debug.xcconfig */,
+				D6FE11AD342D190C4A6CACCD0C13E9B6 /* Pods-EdenaCheckIn.release.xcconfig */,
+			);
+			name = "Pods-EdenaCheckIn";
+			path = "Target Support Files/Pods-EdenaCheckIn";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E43DD028FD42730A6743EB0070E2B18D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E569E7C6B08B30834DBF1A52894BC86 /* Pods_EdenaCheckIn.framework */,
+				47F08E3B1495BF7B4236129C7BFCAA69 /* Pods_EdenaCheckInTests.framework */,
+				9A1E92CF8DF870BC5914E5A84A5E9AC1 /* Pods_EdenaCheckInUITests.framework */,
+				1382E79350162B0F12A4A32AD4657757 /* SquarePointOfSaleSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDECF4555CD2395B28CA0BD832C4D029 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65582E911A61018938EA7D08AB9D5854 /* SquarePointOfSaleSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12F172082825018E48585D9E238F6948 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B3F64DB0785A20D5FB58719F09A693 /* NSDictionary+SCCAdditions.h in Headers */,
+				BF45E45B2E9C8242113A9ECD5FFA0A5C /* NSError+SCCAdditions.h in Headers */,
+				1BCAECC29EFE0C0880F5035D049D33EA /* NSError+SCCAPIAdditions.h in Headers */,
+				96F3162F694985183C0BEC62DA381C73 /* NSError+SCCAPISerializationAdditions.h in Headers */,
+				D7743C86B9AB0D41AD77CB0FC62BA394 /* NSURL+SCCAdditions.h in Headers */,
+				FA8DBE961AD51DDBC12CAF077C79B70C /* SCCAPIConnection.h in Headers */,
+				FD32D401F484FB6D1E5B614756DE7F3A /* SCCAPIConnection_Testing.h in Headers */,
+				3D7AEC90D1698DD44CDA015B93A810FD /* SCCAPIRequest+Serialization.h in Headers */,
+				FF1F34BB06C63610DE157038F9AEEF43 /* SCCAPIRequest.h in Headers */,
+				5717E9E7DD9ED9A11B3959C9C9622E73 /* SCCAPIResponse+Serialization.h in Headers */,
+				4BA9FB2A373104F9CF62D2F990C6FE96 /* SCCAPIResponse.h in Headers */,
+				C8B02FFB428DB1E20ED5369F85644953 /* SCCMoney+Serialization.h in Headers */,
+				9935ECB456159CD81822E41D791F292D /* SCCMoney.h in Headers */,
+				0A6CD0D29EB59BE3011126FF48B83F32 /* SquarePointOfSaleSDK-umbrella.h in Headers */,
+				04857CD9E2E74A6C4F84D12495F90F27 /* SquarePointOfSaleSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A95DD9F621027E6A6FD702009377E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67033D0DA86C4E340B7670D56D2EEDF0 /* Pods-EdenaCheckInUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A346E715EC318E3CDF0AD551E4362091 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DBB2C8F9A64ABE169FE9A9C2630655 /* Pods-EdenaCheckIn-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87B185FEEF8E81FDEC766FA963FD86B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF8CC6663E31ACFE9510BE4296860C4 /* Pods-EdenaCheckInTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01CB3337CA1F282095E650277363FAC3 /* Pods-EdenaCheckInTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9B19636B0E2CC2583687AA4CEA10F8 /* Build configuration list for PBXNativeTarget "Pods-EdenaCheckInTests" */;
+			buildPhases = (
+				77DFDC011693F7F2AF102E7D6981580E /* Sources */,
+				2C8B7AFEF015A1D1EFE544FBE06882CC /* Frameworks */,
+				A87B185FEEF8E81FDEC766FA963FD86B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EdenaCheckInTests";
+			productName = "Pods-EdenaCheckInTests";
+			productReference = 47F08E3B1495BF7B4236129C7BFCAA69 /* Pods_EdenaCheckInTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		850B687C7974984B1CAE636F6E6AA0D1 /* Pods-EdenaCheckIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE8F3D5583B5842F5A6D4B3D18CCA79 /* Build configuration list for PBXNativeTarget "Pods-EdenaCheckIn" */;
+			buildPhases = (
+				6C8F912B93732E998ABD2C2CBF0EC895 /* Sources */,
+				D32AF0721AD4D1C73F192527A41D68D3 /* Frameworks */,
+				A346E715EC318E3CDF0AD551E4362091 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83160E7EFB51BC4A238AC2D2E2C6565 /* PBXTargetDependency */,
+			);
+			name = "Pods-EdenaCheckIn";
+			productName = "Pods-EdenaCheckIn";
+			productReference = 3E569E7C6B08B30834DBF1A52894BC86 /* Pods_EdenaCheckIn.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFFA111361EC55EDC9BC32C261BB6A1C /* Pods-EdenaCheckInUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9BE7C3781B234F92C07FD1DEA9E004D /* Build configuration list for PBXNativeTarget "Pods-EdenaCheckInUITests" */;
+			buildPhases = (
+				DC079CD1123A8F7D466F614F82107FFE /* Sources */,
+				11270AB349443E6999A4D9A0FB1162B2 /* Frameworks */,
+				63A95DD9F621027E6A6FD702009377E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EdenaCheckInUITests";
+			productName = "Pods-EdenaCheckInUITests";
+			productReference = 9A1E92CF8DF870BC5914E5A84A5E9AC1 /* Pods_EdenaCheckInUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD6B8CB8EBC798085E228D86DBD05FF5 /* SquarePointOfSaleSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF217D137E87DCEDFE3B1108D481B6F3 /* Build configuration list for PBXNativeTarget "SquarePointOfSaleSDK" */;
+			buildPhases = (
+				C2C1EFF488688253C375559D3C417440 /* Sources */,
+				9CAA3138DA133B5A40CB4F2B9A9D9DA4 /* Frameworks */,
+				12F172082825018E48585D9E238F6948 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquarePointOfSaleSDK;
+			productName = SquarePointOfSaleSDK;
+			productReference = 1382E79350162B0F12A4A32AD4657757 /* SquarePointOfSaleSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E43DD028FD42730A6743EB0070E2B18D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				850B687C7974984B1CAE636F6E6AA0D1 /* Pods-EdenaCheckIn */,
+				01CB3337CA1F282095E650277363FAC3 /* Pods-EdenaCheckInTests */,
+				EFFA111361EC55EDC9BC32C261BB6A1C /* Pods-EdenaCheckInUITests */,
+				FD6B8CB8EBC798085E228D86DBD05FF5 /* SquarePointOfSaleSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C8F912B93732E998ABD2C2CBF0EC895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2678F766845AB5E3A243EEBB2A62155B /* Pods-EdenaCheckIn-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DFDC011693F7F2AF102E7D6981580E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C333C50C94E0B89EEAE269FD5CAFB1 /* Pods-EdenaCheckInTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C1EFF488688253C375559D3C417440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D6EB6E7DB7EB36A70481AFE81B09AB /* NSDictionary+SCCAdditions.m in Sources */,
+				BC458D98E8329CCDFAEAA7070C234C88 /* NSError+SCCAdditions.m in Sources */,
+				FE36100A630884EBF466B3D1D163A546 /* NSError+SCCAPIAdditions.m in Sources */,
+				D1A676E6E62839B3CFF9BF068026417F /* NSURL+SCCAdditions.m in Sources */,
+				1C586673E17842F80DB9BEBD9996F071 /* SCCAPIConnection.m in Sources */,
+				8FBB9FF501444460E778E85B6B64F2BE /* SCCAPIRequest.m in Sources */,
+				AA7A6CCA781B568942886A9494E542FC /* SCCAPIResponse.m in Sources */,
+				4CDD98B81C7D56B9F2E88DBA179A24B6 /* SCCMoney.m in Sources */,
+				BE4568B3D5708691BCBA84FF7EF96AE9 /* SquarePointOfSaleSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC079CD1123A8F7D466F614F82107FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF0EAAFAF311065AB79E221F7B1D580 /* Pods-EdenaCheckInUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A83160E7EFB51BC4A238AC2D2E2C6565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SquarePointOfSaleSDK;
+			target = FD6B8CB8EBC798085E228D86DBD05FF5 /* SquarePointOfSaleSDK */;
+			targetProxy = 07D1040935BC1ECD9053A5103C2E4918 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36330187CDCC4B6A7D6E9E5CB4E89989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C452E6FB12C1477DBD5C0DA67094BB1E /* Pods-EdenaCheckInUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EdenaCheckInUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EdenaCheckInUITests/Pods-EdenaCheckInUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EdenaCheckInUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4398F626761717C6148B6D943B6423AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736963C8FAC6252243E7BBF285D2B596 /* Pods-EdenaCheckIn.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EdenaCheckIn/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EdenaCheckIn/Pods-EdenaCheckIn.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EdenaCheckIn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AA810D9B19A0A48321189E5F5992DDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11A10015464E95987063AFA03F783FC /* SquarePointOfSaleSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SquarePointOfSaleSDK/SquarePointOfSaleSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SquarePointOfSaleSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SquarePointOfSaleSDK/SquarePointOfSaleSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SquarePointOfSaleSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A542D8470567C887249F8B2ED8FA40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11A10015464E95987063AFA03F783FC /* SquarePointOfSaleSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SquarePointOfSaleSDK/SquarePointOfSaleSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SquarePointOfSaleSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SquarePointOfSaleSDK/SquarePointOfSaleSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SquarePointOfSaleSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		891BC55E17B72EBBF944B54C74B4FB87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98207199547F3955882AD557536FD27D /* Pods-EdenaCheckInTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EdenaCheckInTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EdenaCheckInTests/Pods-EdenaCheckInTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EdenaCheckInTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F61C89448DA8D99B0AADF46F0AA35E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FE11AD342D190C4A6CACCD0C13E9B6 /* Pods-EdenaCheckIn.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EdenaCheckIn/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EdenaCheckIn/Pods-EdenaCheckIn.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EdenaCheckIn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0B7ABA1A571BC409FD4B1AC917DD8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E998ACF1D5898D3E22AE44CA3B6C5FE /* Pods-EdenaCheckInUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EdenaCheckInUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EdenaCheckInUITests/Pods-EdenaCheckInUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EdenaCheckInUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9B6633AD2B380A7EFBC7B7908BCFA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F18F2B8460EF14E181953FE6E17E59 /* Pods-EdenaCheckInTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EdenaCheckInTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EdenaCheckInTests/Pods-EdenaCheckInTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EdenaCheckInTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE8F3D5583B5842F5A6D4B3D18CCA79 /* Build configuration list for PBXNativeTarget "Pods-EdenaCheckIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4398F626761717C6148B6D943B6423AE /* Debug */,
+				8F61C89448DA8D99B0AADF46F0AA35E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF217D137E87DCEDFE3B1108D481B6F3 /* Build configuration list for PBXNativeTarget "SquarePointOfSaleSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA810D9B19A0A48321189E5F5992DDD /* Debug */,
+				7A542D8470567C887249F8B2ED8FA40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9BE7C3781B234F92C07FD1DEA9E004D /* Build configuration list for PBXNativeTarget "Pods-EdenaCheckInUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36330187CDCC4B6A7D6E9E5CB4E89989 /* Debug */,
+				E0B7ABA1A571BC409FD4B1AC917DD8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9B19636B0E2CC2583687AA4CEA10F8 /* Build configuration list for PBXNativeTarget "Pods-EdenaCheckInTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B6633AD2B380A7EFBC7B7908BCFA08 /* Debug */,
+				891BC55E17B72EBBF944B54C74B4FB87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

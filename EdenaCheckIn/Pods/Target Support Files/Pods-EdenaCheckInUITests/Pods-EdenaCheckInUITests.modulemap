@@ -1,0 +1,6 @@
+framework module Pods_EdenaCheckInUITests {
+  umbrella header "Pods-EdenaCheckInUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

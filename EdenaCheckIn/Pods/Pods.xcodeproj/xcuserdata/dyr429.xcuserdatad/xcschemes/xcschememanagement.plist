@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-EdenaCheckIn.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-EdenaCheckInTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-EdenaCheckInUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SquarePointOfSaleSDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>01CB3337CA1F282095E650277363FAC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>850B687C7974984B1CAE636F6E6AA0D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFA111361EC55EDC9BC32C261BB6A1C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD6B8CB8EBC798085E228D86DBD05FF5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

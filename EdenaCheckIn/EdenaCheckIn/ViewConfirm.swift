@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-
+import SquarePointOfSaleSDK
 class ViewConfirm : UIViewController{
     
  
@@ -39,6 +39,8 @@ class ViewConfirm : UIViewController{
     var holderReceiver = String()
     var cvvReceiver = String()
     var emailReceiver = String()
+    //square callback
+    let yourCallbackURL = URL(string: "edena://")!
     
 
     
@@ -61,9 +63,38 @@ class ViewConfirm : UIViewController{
         
         
         TimeStamp.text = getTodayString()
-//        
+//      square preload
+        SCCAPIRequest.setClientID("sq0idp-B0NU8KL0eq6TNlDOA_EzOg")
+        
+        do {
+            // Specify the amount of money to charge.
+            let money = try SCCMoney(amountCents: 100, currencyCode: "USD")
+            
+            // Create the request.
+            let apiRequest =
+                try SCCAPIRequest(
+                    callbackURL: yourCallbackURL,
+                    amount: money,
+                    userInfoString: nil,
+                    merchantID: nil,
+                    notes: "Coffee",
+                    customerID: nil,
+                    supportedTenderTypes: .all,
+                    clearsDefaultFees: false,
+                    returnAutomaticallyAfterPayment: false
+            )
+            
+            // Open Point of Sale to complete the payment.
+            try SCCAPIConnection.perform(apiRequest)
+            
+        } catch let error as NSError {
+            print(error.localizedDescription)
+        }
                 
     }
+    
+    
+    
     @IBAction func screenShot(_ sender: UIButton) {
         if(self.signitureView.doesContainSignature == true){
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, UIScreen.main.scale)
@@ -125,6 +156,31 @@ class ViewConfirm : UIViewController{
         self.signitureView.clear()
         
     }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        guard let sourceApplication = options[.sourceApplication] as? String,
+            sourceApplication.hasPrefix("com.squareup.square") else {
+                return false
+        }
+        
+        do {
+            let response = try SCCAPIResponse(responseURL: url)
+            
+            if let error = response.error {
+                // Handle a failed request.
+                print(error.localizedDescription)
+            } else {
+                // Handle a successful request.
+            }
+            
+        } catch let error as NSError {
+            // Handle unexpected errors.
+            print(error.localizedDescription)
+        }
+        
+        return true
+    }
+
 
 
 }

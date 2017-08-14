@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17E7605050355441F13E282E /* Pods_EdenaCheckIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1494FD7E438674AC19A2E40 /* Pods_EdenaCheckIn.framework */; };
+		63D9C23A87FDF7801CE01309 /* Pods_EdenaCheckInTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236055029029C05A38672DD9 /* Pods_EdenaCheckInTests.framework */; };
 		B2D5ADC51EFFF89D008A8574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D5ADC41EFFF89D008A8574 /* AppDelegate.swift */; };
 		B2D5ADC71EFFF89D008A8574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D5ADC61EFFF89D008A8574 /* ViewController.swift */; };
 		B2D5ADCA1EFFF89D008A8574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D5ADC81EFFF89D008A8574 /* Main.storyboard */; };
@@ -19,6 +21,7 @@
 		B66D2DBB1F1201410095951F /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66D2DBA1F1201410095951F /* MonthYearPickerView.swift */; };
 		B697FB631F15C458001365D5 /* YPDrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697FB621F15C458001365D5 /* YPDrawSignatureView.swift */; };
 		B6DBC3731F30483100FAE4E0 /* welcomeviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DBC3721F30483100FAE4E0 /* welcomeviewController.swift */; };
+		F12E913C7E0AB2AFBFE5B666 /* Pods_EdenaCheckInUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4173ECD5439591F2A4AC18 /* Pods_EdenaCheckInUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DA87CD75AD04FE1D9B66E29 /* Pods-EdenaCheckInUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdenaCheckInUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdenaCheckInUITests/Pods-EdenaCheckInUITests.release.xcconfig"; sourceTree = "<group>"; };
+		236055029029C05A38672DD9 /* Pods_EdenaCheckInTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdenaCheckInTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3210157979D5253B38DCEC6E /* Pods-EdenaCheckIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdenaCheckIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdenaCheckIn/Pods-EdenaCheckIn.release.xcconfig"; sourceTree = "<group>"; };
+		694D5F0E777412B95D4A4B6B /* Pods-EdenaCheckInUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdenaCheckInUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EdenaCheckInUITests/Pods-EdenaCheckInUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EF39D083E86D69942E3D1DE /* Pods-EdenaCheckIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdenaCheckIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EdenaCheckIn/Pods-EdenaCheckIn.debug.xcconfig"; sourceTree = "<group>"; };
+		990A063CB09EB4B4E5DEEC5C /* Pods-EdenaCheckInTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdenaCheckInTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EdenaCheckInTests/Pods-EdenaCheckInTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1494FD7E438674AC19A2E40 /* Pods_EdenaCheckIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdenaCheckIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D5ADC11EFFF89D008A8574 /* EdenaCheckIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdenaCheckIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D5ADC41EFFF89D008A8574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2D5ADC61EFFF89D008A8574 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +67,8 @@
 		B66D2DBA1F1201410095951F /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
 		B697FB621F15C458001365D5 /* YPDrawSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPDrawSignatureView.swift; sourceTree = "<group>"; };
 		B6DBC3721F30483100FAE4E0 /* welcomeviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeviewController.swift; sourceTree = "<group>"; };
+		EB4173ECD5439591F2A4AC18 /* Pods_EdenaCheckInUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdenaCheckInUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9162932508B64C1C03F5313 /* Pods-EdenaCheckInTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdenaCheckInTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdenaCheckInTests/Pods-EdenaCheckInTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E7605050355441F13E282E /* Pods_EdenaCheckIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D9C23A87FDF7801CE01309 /* Pods_EdenaCheckInTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12E913C7E0AB2AFBFE5B666 /* Pods_EdenaCheckInUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46CA5BD655A7DE2280A6EF69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1494FD7E438674AC19A2E40 /* Pods_EdenaCheckIn.framework */,
+				236055029029C05A38672DD9 /* Pods_EdenaCheckInTests.framework */,
+				EB4173ECD5439591F2A4AC18 /* Pods_EdenaCheckInUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90569A0D4F1DF3A11405A1F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EF39D083E86D69942E3D1DE /* Pods-EdenaCheckIn.debug.xcconfig */,
+				3210157979D5253B38DCEC6E /* Pods-EdenaCheckIn.release.xcconfig */,
+				990A063CB09EB4B4E5DEEC5C /* Pods-EdenaCheckInTests.debug.xcconfig */,
+				F9162932508B64C1C03F5313 /* Pods-EdenaCheckInTests.release.xcconfig */,
+				694D5F0E777412B95D4A4B6B /* Pods-EdenaCheckInUITests.debug.xcconfig */,
+				1DA87CD75AD04FE1D9B66E29 /* Pods-EdenaCheckInUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B2D5ADB81EFFF89D008A8574 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +129,8 @@
 				B2D5ADD81EFFF89D008A8574 /* EdenaCheckInTests */,
 				B2D5ADE31EFFF89D008A8574 /* EdenaCheckInUITests */,
 				B2D5ADC21EFFF89D008A8574 /* Products */,
+				90569A0D4F1DF3A11405A1F8 /* Pods */,
+				46CA5BD655A7DE2280A6EF69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2D5ADE91EFFF89D008A8574 /* Build configuration list for PBXNativeTarget "EdenaCheckIn" */;
 			buildPhases = (
+				73937167886467FA1F5AC411 /* [CP] Check Pods Manifest.lock */,
 				B2D5ADBD1EFFF89D008A8574 /* Sources */,
 				B2D5ADBE1EFFF89D008A8574 /* Frameworks */,
 				B2D5ADBF1EFFF89D008A8574 /* Resources */,
+				55FAE1A7B6203B344DE25970 /* [CP] Embed Pods Frameworks */,
+				5B36438864A13B9D4AD4D361 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2D5ADEC1EFFF89D008A8574 /* Build configuration list for PBXNativeTarget "EdenaCheckInTests" */;
 			buildPhases = (
+				5FC4AA5D44D437B36429A729 /* [CP] Check Pods Manifest.lock */,
 				B2D5ADD11EFFF89D008A8574 /* Sources */,
 				B2D5ADD21EFFF89D008A8574 /* Frameworks */,
 				B2D5ADD31EFFF89D008A8574 /* Resources */,
+				FB56A743A0D9823EB9DD8BBD /* [CP] Embed Pods Frameworks */,
+				0D94F24FA0317F12EE01A784 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2D5ADEF1EFFF89D008A8574 /* Build configuration list for PBXNativeTarget "EdenaCheckInUITests" */;
 			buildPhases = (
+				3E2B502F7DFE421D3AFA371F /* [CP] Check Pods Manifest.lock */,
 				B2D5ADDC1EFFF89D008A8574 /* Sources */,
 				B2D5ADDD1EFFF89D008A8574 /* Frameworks */,
 				B2D5ADDE1EFFF89D008A8574 /* Resources */,
+				4C712777E4FC2E9A6BC8C9E7 /* [CP] Embed Pods Frameworks */,
+				6E39947532876565086F903D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +318,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D94F24FA0317F12EE01A784 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdenaCheckInTests/Pods-EdenaCheckInTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E2B502F7DFE421D3AFA371F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdenaCheckInUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C712777E4FC2E9A6BC8C9E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdenaCheckInUITests/Pods-EdenaCheckInUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55FAE1A7B6203B344DE25970 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EdenaCheckIn/Pods-EdenaCheckIn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SquarePointOfSaleSDK/SquarePointOfSaleSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SquarePointOfSaleSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdenaCheckIn/Pods-EdenaCheckIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B36438864A13B9D4AD4D361 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdenaCheckIn/Pods-EdenaCheckIn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FC4AA5D44D437B36429A729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdenaCheckInTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E39947532876565086F903D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdenaCheckInUITests/Pods-EdenaCheckInUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73937167886467FA1F5AC411 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdenaCheckIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB56A743A0D9823EB9DD8BBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdenaCheckInTests/Pods-EdenaCheckInTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B2D5ADBD1EFFF89D008A8574 /* Sources */ = {
@@ -433,6 +632,7 @@
 		};
 		B2D5ADEA1EFFF89D008A8574 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF39D083E86D69942E3D1DE /* Pods-EdenaCheckIn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G33WCJ3P9H;
@@ -447,6 +647,7 @@
 		};
 		B2D5ADEB1EFFF89D008A8574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3210157979D5253B38DCEC6E /* Pods-EdenaCheckIn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G33WCJ3P9H;
@@ -461,6 +662,7 @@
 		};
 		B2D5ADED1EFFF89D008A8574 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990A063CB09EB4B4E5DEEC5C /* Pods-EdenaCheckInTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +677,7 @@
 		};
 		B2D5ADEE1EFFF89D008A8574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9162932508B64C1C03F5313 /* Pods-EdenaCheckInTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +692,7 @@
 		};
 		B2D5ADF01EFFF89D008A8574 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694D5F0E777412B95D4A4B6B /* Pods-EdenaCheckInUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = EdenaCheckInUITests/Info.plist;
@@ -502,6 +706,7 @@
 		};
 		B2D5ADF11EFFF89D008A8574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA87CD75AD04FE1D9B66E29 /* Pods-EdenaCheckInUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = EdenaCheckInUITests/Info.plist;

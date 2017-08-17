@@ -104,7 +104,9 @@ class ViewConfirm : UIViewController{
             UIImageWriteToSavedPhotosAlbum(screenshot!, nil, nil, nil)
             
         
-        self.performSegue(withIdentifier: "toThanksView", sender: self)
+            
+//        to next scene
+//        self.performSegue(withIdentifier: "toThanksView", sender: self)
         }
         else{
             let alert = UIAlertController(title: "Alert", message: "Please Sign", preferredStyle: UIAlertControllerStyle.alert)

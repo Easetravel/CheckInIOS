@@ -197,11 +197,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EdenaCheckIn/ViewConfirm.swift"
-            timestampString = "524440131.79088"
+            timestampString = "524897460.086215"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
             landmarkName = "screenShot(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -209,15 +209,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EdenaCheckIn/ViewConfirm.swift"
-            timestampString = "524440131.79088"
+            timestampString = "524897460.086215"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
             landmarkName = "ViewConfirm"
             landmarkType = "3">
          </BreakpointContent>

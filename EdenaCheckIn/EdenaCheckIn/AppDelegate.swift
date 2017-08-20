@@ -1,46 +1,63 @@
-//
-//  AppDelegate.swift
-//  EdenaCheckIn
-//
-//  Created by peiming on 2017/6/25.
-//  Copyright © 2017年 EdenaResorts. All rights reserved.
-//
 
+
+import SquarePointOfSaleSDK
 import UIKit
 
+
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class HelloChargeSwiftAppDelegate: UIResponder, UIApplicationDelegate {
+    
     var window: UIWindow?
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         return true
     }
-
-    func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        guard let sourceApplication = options[.sourceApplication] as? String,
+            let window = window,
+            let rootViewController = window.rootViewController,
+            sourceApplication.hasPrefix("com.squareup.square") else {
+                return false
+        }
+        
+        let message: String
+        let title: String
+        do {
+            let response = try SCCAPIResponse(responseURL: url)
+            if response.isSuccessResponse {
+                let mainStoryboardIpad : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let initialViewControlleripad : UIViewController = mainStoryboardIpad.instantiateViewController(withIdentifier: "thanksview") as UIViewController
+                self.window = UIWindow(frame: UIScreen.main.bounds)
+                self.window?.rootViewController = initialViewControlleripad
+                self.window?.makeKeyAndVisible()
+            } else if let errorToPresent = response.error {
+                title = "Error!"
+                message = "Request failed: \(errorToPresent.localizedDescription)"
+                let alertView = UIAlertController(title: title, message: message, preferredStyle: .alert)
+                alertView.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                
+                if var topController = UIApplication.shared.keyWindow?.rootViewController {
+                    while let presentedViewController = topController.presentedViewController {
+                        topController = presentedViewController
+                    }
+                    topController.present(alertView, animated: true, completion: nil)
+                    
+                    // topController should now be your topmost view controller
+                }
+                
+            
+            } else {
+                fatalError("We should never have received a response with neither a successful status nor an error message.")
+            }
+        } catch let error as NSError {
+            title = "Error!"
+            message = "Request failed: \(error.localizedDescription)"
+        }
+        
+       
+        
+        return true
     }
-
-    func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-    }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
-    }
-
-    func applicationDidBecomeActive(_ application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    }
-
-    func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    }
-
-
 }
 

@@ -63,33 +63,10 @@ class ViewConfirm : UIViewController{
         
         
         TimeStamp.text = getTodayString()
-//      square preload
+        //      square preload
         SCCAPIRequest.setClientID("sq0idp-B0NU8KL0eq6TNlDOA_EzOg")
-        
-        do {
-            // Specify the amount of money to charge.
-            let money = try SCCMoney(amountCents: 100, currencyCode: "USD")
-            
-            // Create the request.
-            let apiRequest =
-                try SCCAPIRequest(
-                    callbackURL: yourCallbackURL,
-                    amount: money,
-                    userInfoString: nil,
-                    merchantID: nil,
-                    notes: "Coffee",
-                    customerID: nil,
-                    supportedTenderTypes: .all,
-                    clearsDefaultFees: false,
-                    returnAutomaticallyAfterPayment: false
-            )
-            
-            // Open Point of Sale to complete the payment.
-            try SCCAPIConnection.perform(apiRequest)
-            
-        } catch let error as NSError {
-            print(error.localizedDescription)
-        }
+
+
                 
     }
     
@@ -107,14 +84,45 @@ class ViewConfirm : UIViewController{
             
 //        to next scene
 //        self.performSegue(withIdentifier: "toThanksView", sender: self)
+            
+        //call square
+            //      square preload
+            SCCAPIRequest.setClientID("sq0idp-B0NU8KL0eq6TNlDOA_EzOg")
+            
+            do {
+                // Specify the amount of money to charge.
+                let money = try SCCMoney(amountCents: 100, currencyCode: "USD")
+                
+                // Create the request.
+                let apiRequest =
+                    try SCCAPIRequest(
+                        callbackURL: yourCallbackURL,
+                        amount: money,
+                        userInfoString: nil,
+                        merchantID: nil,
+                        notes: "Deposit",
+                        customerID: nil,
+                        supportedTenderTypes: .card,
+                        clearsDefaultFees: false,
+                        returnAutomaticallyAfterPayment: false
+                )
+                
+                // Open Point of Sale to complete the payment.
+                try SCCAPIConnection.perform(apiRequest)
+                
+            } catch let error as NSError {
+                showErrorMessage(title: "Canceled", error: error)
+                return
+            }
         }
         else{
             let alert = UIAlertController(title: "Alert", message: "Please Sign", preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
         }
-    
+        
     }
+    
     func getTodayString() -> String{
         
         let date = Date()
@@ -159,28 +167,15 @@ class ViewConfirm : UIViewController{
         
     }
     
-    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
-        guard let sourceApplication = options[.sourceApplication] as? String,
-            sourceApplication.hasPrefix("com.squareup.square") else {
-                return false
-        }
-        
-        do {
-            let response = try SCCAPIResponse(responseURL: url)
-            
-            if let error = response.error {
-                // Handle a failed request.
-                print(error.localizedDescription)
-            } else {
-                // Handle a successful request.
-            }
-            
-        } catch let error as NSError {
-            // Handle unexpected errors.
-            print(error.localizedDescription)
-        }
-        
-        return true
+    
+    private func showErrorMessage(title: String, error: NSError) {
+        showErrorMessage(title: title, message: error.localizedDescription)
+    }
+    
+    private func showErrorMessage(title: String, message: String) {
+        let alertView = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alertView.addAction(UIAlertAction(title: "Dismiss", style: .default, handler: nil))
+        present(alertView, animated: true, completion: nil)
     }
 
 

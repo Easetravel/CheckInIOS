@@ -8,8 +8,10 @@
 
 import UIKit
 
+var allfield = false;
+
 class ViewController: UIViewController {
-    var allfield = false;
+    
 
     @IBOutlet weak var Continue: UIButton!
     @IBOutlet weak var termsAgree: UISwitch!
